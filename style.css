@@ -1,10 +1,12 @@
 h1 {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
+    font-weight: bolder;
 }
 
 h3 {
     text-align: center;
+    padding-bottom: 15px;
 }
 
 p {
@@ -13,4 +15,5 @@ p {
 
 .dropdown {
     margin-left: 45%;
+    padding-bottom: 30px;
 }
