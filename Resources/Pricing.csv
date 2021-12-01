@@ -2753,10 +2753,10 @@ DEN,Amazon,V10308494,C1067596,854.20,0.00,-854.20,Unpaid - Cancel Status,Parts,0
 DEN,KeHE,V10309116,W1065632,1133.70,1107.75,-30.95,Part Pricing - Raymond,Service,01/11/21
 DEN,KeHE,V10309116,W1065632,1133.70,1107.75,5.00,Entry Error - Freight,Service,01/11/21
 DEN,KeHE,V10316582,W1069417,352.11,347.30,-4.81,Part Pricing - Raymond,Service,03/26/21
-ABQ,Costco,V20083695,SM2039255,242.52,-,-242.52,Unpaid - Cancel Status,Service,09/01/21
-ABQ,Costco,V20083699,SM2039259,242.52,-,-242.52,Unpaid - Cancel Status,Service,09/01/21
+ABQ,Costco,V20083695,SM2039255,242.52,76.63,-165.89,Incorrect PM Rate,Service,09/01/21
+ABQ,Costco,V20083699,SM2039259,242.52,512.16,269.64,Incorrect PM Rate,Service,09/01/21
 ABQ,Costco,V20083702,W242039,191.56,0.00,-191.56,Unpaid - Cancel Status,Service,09/01/21
-ABQ,Costco,V20083711,SM2039257,242.52,0.00,-242.52,Unpaid - Cancel Status,Service,09/01/21
+ABQ,Costco,V20083711,SM2039257,242.52,481.12,238.60,Incorrect PM Rate,Service,09/01/21
 ABQ,Petco,V20084665,W242364,823.55,679.97,-6.52,Part Pricing - Raymond,Service,10/14/21
 ABQ,Petco,V20084665,W242364,823.55,679.97,-137.06,Over NTE,Service,10/14/21
 ABQ,Costco,V20084812,SM2039714,242.52,90.00,-152.52,Incorrect PM Rate,Service,10/14/21
@@ -2853,8 +2853,6 @@ DEN,Home Depot,V10340593,SM1142844,112.36,85.00,-27.36,Consumables,Service,11/22
 SLC,Kuehne + Nagel,V30107830,W357581,2785.00,2875.00,90.00,Entry Error - Misc Charge,Service,11/01/21
 SLC,XPO,V30107924,W357637,2573.07,2388.00,-185.07,Tax,Service,11/02/21
 DEN,Amazon,V10322423,C1084871,2814.09,2288.28,-525.81,Over NTE,Parts,06/07/21
-DEN,Amazon,V10324046,C1086792,201.34,0.00,-201.34,Unpaid - Review Status,Parts,08/27/21
-DEN,Amazon,V10324047,C1086804,19.73,0.00,19.73,Unpaid - Review Status,Parts,08/27/21
 DEN,Mattress Firm,V40006329,W408377,523.55,523.30,37.01,Discount Labor Line,Mountain Power,11/03/21
 DEN,Mattress Firm,V40006329,W408377,523.55,523.30,-37.26,Entry Error - Labor Quantity,Mountain Power,11/03/21
 DEN,Sam's Club,V40006352,W408423,138.89,138.88,13.32,Discount Labor Line,Mountain Power,11/15/21
@@ -2875,3 +2873,63 @@ SLC,Amazon,V30108216,W357495,902.77,866.57,-36.20,Part Pricing - Raymond,Service
 DEN,Home Depot,V10340788,W1083679,903.73,846.92,-56.81,Part Pricing - Raymond,Service,11/24/21
 DEN,Home Depot,V10340790,W1082941,646.92,633.14,-13.78,Part Pricing - Raymond,Service,11/24/21
 DEN,Amazon,V10340802,W1083034,24.04,23.76,-0.28,Part Pricing - Raymond,Service,11/24/21
+DEN,Home Depot,V10340914,SM1142854,108.98,85.00,-23.98,Consumables,Service,11/29/21
+DEN,Walmart,V10340933,W1083680,623.79,622.62,-1.17,Part Pricing - Raymond,Service,11/29/21
+DEN,Walmart,V10340945,W1083273,922.38,921.92,-0.46,Part Pricing - Raymond,Service,11/29/21
+DEN,Walmart,V10340948,W1083245,866.20,827.62,-38.58,Part Pricing - Raymond,Service,11/29/21
+DEN,Amazon,V10340967,W1083957,173.34,164.62,-8.72,Part Pricing - Raymond,Service,11/29/21
+DEN,Amazon,V10340968,W1083933,274.59,265.87,-8.72,Part Pricing - Raymond,Service,11/29/21
+DEN,TBC International,V10341217,W1083518,470.20,467.60,-2.60,Part Pricing - Raymond,Service,11/30/21
+DEN,Home Depot,V10341249,W1083048,1512.11,1425.52,-86.59,Part Pricing - Raymond,Service,11/30/21
+DEN,Sam's Club,V10341271,W1081439,1498.52,1494.52,-4.00,Over NTE,Service,11/30/21
+DEN,Home Depot,V10341377,SM1142833,117.84,85.00,-32.84,Consumables,Service,12/01/21
+DEN,Home Depot,V10341118,W1083612,61.51,59.63,-1.89,Part Pricing - Raymond,Service,12/01/21
+DEN,Home Depot,V10341122,W1083549,255.20,250.04,-5.15,Part Pricing - Raymond,Service,12/01/21
+SLC,Amazon,V30108218,W357772,248.40,247.50,-0.90,Productive Rounding,Service,11/09/21
+SLC,Sam's Club,V30108221,W357622,332.64,302.96,-29.68,Part Pricing - Raymond,Service,11/09/21
+SLC,Sam's Club,V30108222,W357625,521.64,491.96,-29.68,Part Pricing - Raymond,Service,11/09/21
+SLC,Sam's Club,V30108224,W357557,604.80,575.12,-29.68,Part Pricing - Raymond,Service,11/09/21
+SLC,Sam's Club,V30108225,W357555,483.84,454.16,-29.68,Part Pricing - Raymond,Service,11/09/21
+SLC,Walmart,V30108236,W357707,295.40,292.81,-2.58,Part Pricing - Raymond,Service,11/09/21
+SLC,Sam's Club,V30108237,W357621,313.74,284.06,-29.68,Part Pricing - Raymond,Service,11/09/21
+SLC,Amazon,V30108274,SM3044048-2,98.83,94.75,-4.98,Part Pricing - Raymond,Service,11/09/21
+SLC,Amazon,V30108274,SM3044048-2,98.83,94.75,0.90,Productive Rounding,Service,11/09/21
+SLC,Medline,V30108275,W357767,507.54,494.46,-13.08,Part Pricing - Raymond,Service,11/09/21
+SLC,Medline,V30108276,W357787,129.37,120.69,-8.68,Part Pricing - Raymond,Service,11/09/21
+SLC,XPO,V30108362,W357228,126.50,124.00,-2.50,Part Pricing - Raymond,Service,11/11/21
+SLC,Sam's Club,V30108363,W357624,408.24,378.56,-29.68,Part Pricing - Raymond,Service,11/11/21
+SLC,Aramsco,V30108368,W357591,909.71,909.58,0.94,Part Pricing - Raymond,Service,11/11/21
+SLC,Aramsco,V30108368,W357591,909.71,909.58,-1.06,Productive Rounding,Service,11/11/21
+DEN,Mattress Firm,V40006350,B4004564,2900.97,2900.97,-208.65,Tax,Mountain Power,11/12/21
+DEN,Mattress Firm,V40006350,B4004564,2900.97,2900.97,208.65,Entry Error - Misc Charge,Mountain Power,11/12/21
+DEN,Mattress Firm,V40006360,W408443,363.91,363.91,-31.05,Discount Labor Line,Mountain Power,11/15/21
+DEN,Mattress Firm,V40006360,W408443,363.91,363.91,31.05,Entry Error - Labor Quantity,Mountain Power,11/15/21
+SLC,Amazon,V30108435,W357894,134.10,135.00,0.90,Productive Rounding,Service,11/16/21
+SLC,Medline,V30108434,SM3044107-2,315.28,277.76,-37.52,Part Pricing - Raymond,Service,11/16/21
+DEN,Walmart,V40006368,W408408,195.61,196.23,-21.74,Discount Labor Line,Mountain Power,11/22/21
+DEN,Walmart,V40006368,W408408,195.61,196.23,21.74,Entry Error - Labor Quantity,Mountain Power,11/22/21
+SLC,XPO,V30103866,W355497,6624.08,6176.30,-447.78,Tax,Service,11/23/21
+SLC,XPO,V30103868,W355499,6624.08,6176.30,-447.78,Tax,Service,11/23/21
+SLC,XPO,V30103870,W355501,6643.49,6194.40,-449.09,Tax,Service,11/23/21
+SLC,XPO,V30108629,W358021,37.68,36.50,-1.18,Part Pricing - Raymond,Service,11/23/21
+SLC,XPO,V30108630,W358019,87.18,86.00,-1.18,Part Pricing - Raymond,Service,11/23/21
+SLC,Medline,V30108636,SM3044220-2,618.49,517.04,-24.15,Incorrect Labor Rate,Service,11/23/21
+SLC,Medline,V30108636,SM3044220-2,618.49,517.04,-77.30,Part Pricing - Raymond,Service,11/23/21
+SLC,Walmart,V30108640,W357849,797.51,796.42,-1.08,Part Pricing - TVH/Durasource,Service,11/23/21
+SLC,Walmart,V30108645,W357846,474.73,471.39,-3.32,Part Pricing - Raymond,Service,11/23/21
+SLC,Walmart,V30108646,W356641,3311.48,2887.19,-63.04,Entry Error - Part Pricing,Service,11/23/21
+SLC,Walmart,V30108646,W356641,3311.48,2887.19,-170.00,Entry Error - Misc Charge,Service,11/23/21
+SLC,Walmart,V30108646,W356641,3311.48,2887.19,-191.25,Labor Loop Error,Service,11/23/21
+SLC,Walmart,V30108648,W357999,904.51,841.47,-63.04,Entry Error - Part Pricing,Service,11/23/21
+SLC,Sam's Club,V30108650,W357924,715.15,699.58,10.39,Entry Error - Part Quantity,Service,11/23/21
+SLC,Sam's Club,V30108650,W357924,715.15,699.58,-25.96,Part Pricing - Raymond,Service,11/23/21
+DEN,Lineage Logistics,V10340766,W1083371,88.84,85.76,-3.08,Part Pricing - Raymond,Parts,11/24/21
+SLC,Amazon,V30108653,W357948,219.24,209.62,-8.72,Part Pricing - Raymond,Service,11/24/21
+SLC,Amazon,V30108653,W357948,219.24,209.62,-0.90,Productive Rounding,Service,11/24/21
+SLC,Amazon,V30108654,W357898,816.37,790.87,-25.50,Part Pricing - Raymond,Service,11/24/21
+SLC,Amazon,V30108655,W358018,129.24,119.62,-8.72,Part Pricing - Raymond,Service,11/24/21
+SLC,Amazon,V30108655,W358018,129.24,119.62,-0.90,Productive Rounding,Service,11/24/21
+SLC,Amazon,V30108660,W358003,1291.74,1214.45,-77.29,Part Pricing - Raymond,Service,11/24/21
+SLC,Amazon,V30108661,W357985,806.67,752.55,-0.90,Productive Rounding,Service,11/24/21
+SLC,Amazon,V30108661,W357985,806.67,752.55,-53.22,Part Pricing - Raymond,Service,11/24/21
+SLC,Grainger,V30108701,W357408,3814.62,3567.77,-246.85,Part Pricing - Raymond,Service,11/24/21
