@@ -223,6 +223,8 @@ SLC,Sam's Club,V30107899,SM3043640,94.46,87.00,-7.46,Consumables,Service,11/01/2
 SLC,Sam's Club,V30107901,SM3043637,120.02,87.00,-33.02,Consumables,Service,11/01/21
 DEN,Petco,V10341984,SM1143312,74.98,65.00,-9.98,Consumables,Service,12/07/21
 DEN,Home Depot,V10342029,SM1143343,60.48,55.00,-5.84,Consumables,Service,12/07/21
+DEN,Home Depot,V10342130,SM1143338,60.58,55.00,-5.58,Consumables,Service,12/08/21
+DEN,Home Depot,V10342399,SM1143329,122.03,85.00,-37.03,Consumables,Service,12/09/21
 DEN,Lineage Logistics,V10333690,C1088544,4812.40,2406.20,-2406.20,Core Charge,Parts,10/12/21
 ABQ,Bunzl,V20081812,W240828,401.80,285.24,-115.50,Cust Dispute Lbr Amt,Service,06/15/21
 DEN,Mattress Firm,V40006329,W408377,523.55,523.30,37.01,Discount Labor Line,Mountain Power,11/03/21
@@ -646,6 +648,7 @@ SLC,Walmart,V30097431,W351538,802.88,877.48,0.20,Entry Error - Freight,Service,0
 SLC,Walmart,V30097849,W351635,714.97,924.82,-38.91,Entry Error - Freight,Service,02/05/21
 SLC,Walmart,V30101765,W353828,879.04,945.00,-96.94,Entry Error - Freight,Service,05/18/21
 SLC,Grainger,V30098423,W351974,461.20,456.83,-114.91,Entry Error - Freight,Service,02/25/21
+SLC,Home Depot,V30103695,W355051,512.00,420.99,-97.21,Entry Error - Freight,Service,07/16/21
 SLC,Aramsco,V30100673,W351371,3884.91,3624.92,82.45,Entry Error - Labor Dates,Service,04/23/21
 ABQ,Aramsco,V40006178,B4004377,3717.77,3717.80,0.03,Entry Error - Labor Quantity,Mountain Power,10/01/21
 ABQ,Home Depot,V20078101,W238839,634.22,443.40,-283.14,Entry Error - Labor Quantity,Service,01/26/21
@@ -730,6 +733,9 @@ SLC,Kuehne + Nagel,V30107830,W357581,2785.00,2875.00,90.00,Entry Error - Misc Ch
 SLC,Walmart,V30108646,W356641,3311.48,2887.19,-170.00,Entry Error - Misc Charge,Service,11/23/21
 SLC,Grainger,V30102090,W353739-1,664.05,490.58,-120.00,Entry Error - Misc Charge,Service,05/25/21
 SLC,XPO,V30100415,W352750,1002.57,1000.00,65.20,Entry Error - Misc Charge,Service,04/23/21
+SLC,Amazon,V30102085,W353815,279.60,270.00,-9.60,Entry Error - Misc Charge,Service,06/03/21
+SLC,Amazon,V30102184,W354225,57.60,510.00,452.40,Entry Error - Misc Charge,Service,06/22/21
+SLC,Amazon,V30102185,W354226,432.00,510.00,78.00,Entry Error - Misc Charge,Service,06/22/21
 ABQ,Bunzl,V20080110,SM2037381,82.29,74.16,-7.39,Entry Error - Part Pricing,Service,04/07/21
 ABQ,Home Depot,V20085760,W242907,686.73,673.94,-5.82,Entry Error - Part Pricing,Service,11/15/21
 ABQ,Walmart,V20080916,W240361,442.01,484.13,6.64,Entry Error - Part Pricing,Service,05/12/21
@@ -1149,7 +1155,12 @@ SLC,XPO,V30104615,W355713,268.54,247.50,-21.04,Environmental Fee,Service,08/11/2
 SLC,XPO,V30104917,W355891,214.83,198.00,-16.83,Environmental Fee,Service,08/18/21
 SLC,XPO,V30104918,W355892,187.98,173.25,-14.73,Environmental Fee,Service,08/18/21
 SLC,XPO,V30106121,W356418,663.40,609.50,-39.97,Environmental Fee,Service,09/20/21
-SLC,Home Depot,V30103695,W355051,512.00,420.99,-97.21,Freight ,Service,07/16/21
+SLC,Walmart,V30108646,W356641,3311.48,2887.19,-191.25,Flat Rate Error,Service,11/23/21
+ABQ,Walmart,V20080123,W239564,1594.25,1482.60,-107.59,Flat Rate Error,Service,04/14/21
+ABQ,Walmart,V20082990,W241458,1558.55,1236.92,-319.28,Flat Rate Error,Service,08/04/21
+SLC,Amazon,V30108874,W358219,579.84,370.00,-113.20,Incorrect Battery Rate,Service,12/02/21
+SLC,Amazon,V30108876,W358220,579.84,370.00,-113.20,Incorrect Battery Rate,Service,12/02/21
+SLC,Amazon,V30098003,W352023,57.60,45.00,-3.00,Incorrect Battery Rate,Service,03/26/21
 ABQ,Bunzl,V20079157,W239461,218.21,163.21,-55.00,Incorrect Labor Rate,Service,03/19/21
 ABQ,Bunzl,V20080776,W240268,457.14,345.10,-91.00,Incorrect Labor Rate,Service,05/12/21
 ABQ,Bunzl,V20080893,W240299,161.25,96.25,-65.00,Incorrect Labor Rate,Service,05/12/21
@@ -1371,6 +1382,9 @@ SLC,XPO,V30102282,W354114,1260.02,1170.97,20.25,Incorrect Labor Rate,Service,06/
 SLC,XPO,V30104518,W355452,869.08,862.84,96.00,Incorrect Labor Rate,Service,08/09/21
 SLC,Amazon,V30098887,W351970,484.00,360.00,-124.00,Incorrect Labor Rate,Service,02/23/21
 SLC,US Autoforce,V30098641,W351881,78.55,77.14,9.64,Incorrect Labor Rate,Service,02/25/21
+SLC,Amazon,V30100025,W352669,449.43,524.52,99.30,Incorrect Labor Rate,Service,04/02/21
+SLC,HD Supply,V30100007,W352848,168.75,163.35,-5.40,Incorrect Labor Rate,Service,04/02/21
+SLC,Medline,V30100238,W352989,183.15,172.61,-4.49,Incorrect Labor Rate,Service,04/09/21
 ABQ,Harbor Freight,V20078115,W238842,1275.33,740.74,-493.43,Incorrect Labor Rate/Amt,Service,01/26/21
 SLC,Walmart,V30105263,W352828,697.00,766.19,-3.94,Incorrect Part Pricing,Service,08/27/21
 ABQ,Costco,V20078920,SM2037217,242.52,90.00,-152.52,Incorrect PM Rate,Service,02/25/21
@@ -1405,9 +1419,6 @@ SLC,Walmart,V30100020,SM3040857,116.70,286.88,167.50,Incorrect PM Rate,Service,0
 SLC,Walmart,V30100016,SM3040858,140.62,300.00,143.75,Incorrect PM Rate,Service,04/02/21
 SLC,Walmart,V30100017,SM3040860,101.25,300.00,187.50,Incorrect PM Rate,Service,04/02/21
 SLC,Walmart,V30104269,SM3042386,513.76,302.51,-262.50,Incorrect PM Rate,Service,08/02/21
-SLC,Amazon,V30100025,W352669,449.43,524.52,100.20,Incorrect Rate,Service,04/02/21
-SLC,Amazon,V30108874,W358219,579.84,370.00,-209.84,Incorrect Rate,Service,12/02/21
-SLC,Amazon,V30108876,W358220,579.84,370.00,-209.84,Incorrect Rate,Service,12/02/21
 SLC,Walmart,V30096886,W350741,1615.12,1534.87,-36.75,Incorrect Travel Quantity,Service,01/11/21
 SLC,Home Depot,V30106651,W356667,892.88,738.05,-94.17,Incorrect Travel Rate,Service,09/28/21
 SLC,HD Supply,V30104175,W355381,418.25,350.32,-64.62,Incorrect Travel Rate,Service,07/30/21
@@ -1426,13 +1437,9 @@ ABQ,Home Depot,V20082757,W241433,295.58,200.23,-94.17,Incorrect Travel Rate,Serv
 ABQ,Home Depot,V20082755,W241442,478.63,374.99,-94.17,Incorrect Travel Rate,Service,07/23/21
 DEN,HD Supply,V10313824,T106354,328.76,358.76,30.00,Incorrect Travel Rate,Tire Truck,02/25/21
 SLC,Home Depot,V30104623,W355338,1251.13,834.91,-276.25,Incorrect Travel Rate,Service,08/11/21
-SLC,Amazon,V30098003,W352023,57.60,45.00,-12.60,Incorrect Vendor Markup,Service,03/26/21
-SLC,Amazon,V30102085,W353815,279.60,270.00,-9.60,Incorrect Vendor Markup,Service,06/03/21
-SLC,Amazon,V30102184,W354225,57.60,510.00,452.40,Incorrect Vendor Markup,Service,06/22/21
-SLC,Amazon,V30102185,W354226,432.00,510.00,78.00,Incorrect Vendor Markup,Service,06/22/21
-SLC,Walmart,V30108646,W356641,3311.48,2887.19,-191.25,Labor Loop Error,Service,11/23/21
-SLC,HD Supply,V30100007,W352848,168.75,163.35,-5.40,Labor Rate Increase,Service,04/02/21
-SLC,Medline,V30100238,W352989,183.15,172.61,-4.49,Labor Rate Increase,Service,04/09/21
+SLC,Amazon,V30108874,W358219,579.84,370.00,-96.64,Incorrect Vendor Markup,Service,12/02/21
+SLC,Amazon,V30108876,W358220,579.84,370.00,-96.64,Incorrect Vendor Markup,Service,12/02/21
+SLC,Amazon,V30098003,W352023,57.60,45.00,-9.60,Incorrect Vendor Markup,Service,03/26/21
 ABQ,Petco,V20084665,W242364,823.55,679.97,-137.06,Over NTE,Service,10/14/21
 ABQ,Walmart,V20077855,W238793,859.41,525.87,-332.16,Over NTE,Service,01/20/21
 ABQ,Walmart,V20078135,W238987,598.95,544.50,-54.45,Over NTE,Service,01/20/21
@@ -2494,6 +2501,9 @@ DEN,Walmart,V10341997,W1083729,1576.75,1559.61,-17.14,Part Pricing - Raymond,Ser
 DEN,Home Depot,V10342007,W1082885,489.29,422.81,-66.48,Part Pricing - Raymond,Service,12/07/21
 DEN,Home Depot,V10342031,W1084136,479.24,471.57,-7.67,Part Pricing - Raymond,Service,12/07/21
 DEN,Home Depot,V10342036,W1083598,1827.88,1680.50,-147.38,Part Pricing - Raymond,Service,12/07/21
+DEN,Home Depot,V10342133,W1084334,518.41,490.29,-28.12,Part Pricing - Raymond,Service,12/08/21
+DEN,Walmart,V10342239,W1083961,241.95,232.31,-9.64,Part Pricing - Raymond,Service,12/08/21
+DEN,Medline,V10342305,W1084089,1007.93,999.67,-8.26,Part Pricing - Raymond,Service,12/09/21
 DEN,Aramsco,V10334621,W1079892,478.20,461.94,-16.26,Part Pricing - TVH/Durasource,Service,09/27/21
 DEN,Aramsco,V10334950,W1080307,181.04,178.38,-2.66,Part Pricing - TVH/Durasource,Service,09/28/21
 DEN,Home Depot,V10310197,W1066610,160.60,151.89,-8.71,Part Pricing - TVH/Durasource,Service,01/20/21
@@ -2622,7 +2632,7 @@ SLC,Amazon,V30098479,W351889,432.77,410.96,8.10,Productive Rounding,Service,02/2
 SLC,Amazon,V30098476,W351935,545.52,498.87,10.80,Productive Rounding,Service,02/26/21
 SLC,Amazon,V30098660,W352153,240.85,207.16,0.09,Productive Rounding,Service,02/26/21
 SLC,Amazon,V30099773,W352673,123.04,112.50,0.90,Productive Rounding,Service,03/26/21
-SLC,Amazon,V30100025,W352669,449.43,524.52,10.80,Productive Rounding,Service,04/02/21
+SLC,Amazon,V30100025,W352669,449.43,524.52,11.70,Productive Rounding,Service,04/02/21
 SLC,Amazon,V30100024,W352786,1772.58,1628.08,-16.20,Productive Rounding,Service,04/02/21
 SLC,Amazon,V30100470,W353190,145.50,135.00,0.90,Productive Rounding,Service,04/16/21
 SLC,Amazon,V30101724,W353728,1332.75,1204.40,0.90,Productive Rounding,Service,05/14/21
@@ -2730,8 +2740,6 @@ SLC,XPO,V30107589,W357377,437.84,420.83,0.99,Productive Rounding,Service,10/25/2
 SLC,XPO,V30107590,W357378,457.64,440.63,0.99,Productive Rounding,Service,10/25/21
 SLC,XPO,V30108110,W357641,170.34,170.15,0.99,Productive Rounding,Service,11/04/21
 SLC,Grainger,V30107578,W357423,233.67,232.50,-1.16,Productive Rounding,Service,10/25/21
-ABQ,Walmart,V20080123,W239564,1594.25,1482.60,-107.59,Quote - Not Flat Rated,Service,04/14/21
-ABQ,Walmart,V20082990,W241458,1558.55,1236.92,-319.28,Quote - Not Flat Rated,Service,08/04/21
 ABQ,Aramsco,V40006178,B4004377,3717.77,3717.80,-237.83,Tax,Mountain Power,10/01/21
 ABQ,Costco,V20084343,W242317,834.95,696.60,-60.95,Tax,Service,10/05/21
 ABQ,TBC International,V20078911,SM2037200,91.69,85.00,-6.69,Tax,Service,02/25/21
@@ -2948,8 +2956,8 @@ SLC,Kuehne + Nagel,V30102690,W354388,640.90,463.60,-100.80,Tire Press,Service,06
 ABQ,Costco,V20083702,W242039,191.56,0.00,-191.56,Unpaid - Cancel Status,Service,09/01/21
 DEN,Amazon,V10308479,C1064993,260.00,0.00,-260.00,Unpaid - Cancel Status,Parts,01/07/21
 DEN,Amazon,V10308494,C1067596,854.20,0.00,-854.20,Unpaid - Cancel Status,Parts,01/07/21
-SLC,XPO,V30103579,W354888,499.24,0.00,-499.24,Unpaid - Cancel Status,Service,07/13/21
-SLC,Walmart,V30108839,W356861,814.73,0.00,-814.73,Unpaid - Cancel Status,Service,12/01/21
+SLC,XPO,V30103579,W354888,499.24,0.00,-499.24,Unpaid - Denied Status,Service,07/13/21
+SLC,Walmart,V30108839,W356861,814.73,0.00,-814.73,Unpaid - Return Status,Service,12/01/21
 SLC,Amazon,V30096661,W344774,1111.22,0.00,-1111.22,Unpaid - Reversed Status,Service,01/05/21
 SLC,Amazon,V30098627,SM3039866,165.00,0.00,-165.00,Unpaid - Reversed Status,Service,03/19/21
 SLC,Amazon,V30098630,SM3039864,165.00,0.00,-165.00,Unpaid - Reversed Status,Service,03/19/21
@@ -2957,4 +2965,3 @@ SLC,Amazon,V30098631,SM3039865,165.00,0.00,-165.00,Unpaid - Reversed Status,Serv
 SLC,Amazon,V30098634,SM3039862,75.00,0.00,-75.00,Unpaid - Reversed Status,Service,03/19/21
 SLC,Amazon,V30098643,SM3040196,75.00,0.00,75.00,Unpaid - Reversed Status,Service,03/19/21
 SLC,Baker Distributing,V30103471,W354833,267.04,0.00,-267.04,Unpaid - Reversed Status,Service,07/20/21
-DEN,Amazon,V10322423,C1084871,2814.09,2288.28,-2288.28,Unpaid - Review Status,Parts,06/07/21
