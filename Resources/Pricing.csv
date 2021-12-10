@@ -226,16 +226,16 @@ DEN,Home Depot,V10342029,SM1143343,60.48,55.00,-5.84,Consumables,Service,12/07/2
 DEN,Home Depot,V10342130,SM1143338,60.58,55.00,-5.58,Consumables,Service,12/08/21
 DEN,Home Depot,V10342399,SM1143329,122.03,85.00,-37.03,Consumables,Service,12/09/21
 DEN,Lineage Logistics,V10333690,C1088544,4812.40,2406.20,-2406.20,Core Charge,Parts,10/12/21
-ABQ,Bunzl,V20081812,W240828,401.80,285.24,-115.50,Cust Dispute Lbr Amt,Service,06/15/21
-DEN,Mattress Firm,V40006329,W408377,523.55,523.30,37.01,Discount Labor Line,Mountain Power,11/03/21
-DEN,Mattress Firm,V40006360,W408443,363.91,363.91,-31.05,Discount Labor Line,Mountain Power,11/15/21
+ABQ,Bunzl,V20081812,W240828,401.80,285.24,-115.50,Entry Error - Labor Quantity,Service,06/15/21
+DEN,HD Pro,V40005286,W406873,938.00,918.05,-19.95,Over NTE,Mountain Power,01/15/21
 DEN,Sam's Club,V40005345,W406973,120.81,120.82,9.16,Discount Labor Line,Mountain Power,02/10/21
-DEN,Sam's Club,V40005651,W407459,96.38,96.37,8.57,Discount Labor Line,Mountain Power,06/04/21
-DEN,Sam's Club,V40006060,W407919,157.37,157.54,14.32,Discount Labor Line,Mountain Power,10/15/21
-DEN,Sam's Club,V40006191,W408179,121.89,121.89,12.49,Discount Labor Line,Mountain Power,10/15/21
-DEN,Sam's Club,V40006352,W408423,138.89,138.88,13.32,Discount Labor Line,Mountain Power,11/15/21
-DEN,Walmart,V40006233,W408242,206.79,207.41,22.98,Discount Labor Line,Mountain Power,10/15/21
-DEN,Walmart,V40006368,W408408,195.61,196.23,-21.74,Discount Labor Line,Mountain Power,11/22/21
+DEN,Sam's Club,V40005345,W406973,120.81,120.82,-9.15,Entry Error - Labor Quantity,Mountain Power,02/10/21
+DEN,Mattress Firm,V40005324,W406670,269.04,269.09,29.69,Entry Error - Labor Quantity,Mountain Power,02/17/21
+DEN,Mattress Firm,V40005324,W406670,269.04,269.09,-29.64,Entry Error - Part Quantity,Mountain Power,02/17/21
+DEN,Amazon,V40005403,W407072,71.63,71.64,21.51,Entry Error - Labor Quantity,Mountain Power,03/04/21
+DEN,Amazon,V40005403,W407072,71.63,71.64,-21.50,Incorrect Labor Rate,Mountain Power,03/04/21
+DEN,KeHE,V40005508,W407176,171.37,171.26,-0.11,Incorrect Labor Rate,Mountain Power,04/23/21
+DEN,Wayfair,V40005519,W407247,256.14,256.14,21.54,Entry Error - Misc Charge,Mountain Power,04/27/21
 DEN,Walmart,V10310584,W1066260,912.41,921.41,35.08,Discount Labor Line,Service,01/25/21
 DEN,Walmart,V10312611,W1066546,1011.49,1119.22,107.73,Discount Labor Line,Service,02/12/21
 SLC,Aramsco,V30097546,W351617,1003.41,1028.99,151.65,Discount Labor Line,Service,01/28/21
@@ -650,33 +650,33 @@ SLC,Walmart,V30101765,W353828,879.04,945.00,-96.94,Entry Error - Freight,Service
 SLC,Grainger,V30098423,W351974,461.20,456.83,-114.91,Entry Error - Freight,Service,02/25/21
 SLC,Home Depot,V30103695,W355051,512.00,420.99,-97.21,Entry Error - Freight,Service,07/16/21
 SLC,Aramsco,V30100673,W351371,3884.91,3624.92,82.45,Entry Error - Labor Dates,Service,04/23/21
-ABQ,Aramsco,V40006178,B4004377,3717.77,3717.80,0.03,Entry Error - Labor Quantity,Mountain Power,10/01/21
+DEN,Wayfair,V40005519,W407247,256.14,256.14,-19.94,Environmental Fee,Mountain Power,04/27/21
 ABQ,Home Depot,V20078101,W238839,634.22,443.40,-283.14,Entry Error - Labor Quantity,Service,01/26/21
 ABQ,Home Depot,V20079693,W239638,258.24,221.07,-39.79,Entry Error - Labor Quantity,Service,03/26/21
 ABQ,Petco,V20084515,W242300,863.86,866.76,-50.95,Entry Error - Labor Quantity,Service,10/05/21
 ABQ,Walmart,V20083660,W241939,696.60,522.45,-174.15,Entry Error - Labor Quantity,Service,09/01/21
-DEN,Amazon,V40005403,W407072,71.63,71.64,21.51,Entry Error - Labor Quantity,Mountain Power,03/04/21
+DEN,Wayfair,V40005519,W407247,256.14,256.14,-1.60,Tax,Mountain Power,04/27/21
 DEN,Amazon,V10309580,W1064053,381.78,349.72,-21.00,Entry Error - Labor Quantity,Service,01/14/21
 DEN,Gensco,V10321612,W1063804,111.01,136.87,31.88,Entry Error - Labor Quantity,Service,05/18/21
 DEN,Home Depot,V10330088,W1077753,451.46,440.92,4.89,Entry Error - Labor Quantity,Service,08/12/21
-DEN,Harbor Freight,V40005577,W407398,132.06,132.06,-0.85,Entry Error - Labor Quantity,Mountain Power,06/18/21
+DEN,HD Pro,V40005603,W407401,137.36,137.37,0.01,Incorrect Labor Rate,Mountain Power,05/28/21
 DEN,HD Supply,V10319627,W1071157,708.39,740.81,62.10,Entry Error - Labor Quantity,Service,04/27/21
-DEN,HD Pro,V40005811,W407623,1140.00,1139.43,-0.57,Entry Error - Labor Quantity,Mountain Power,08/16/21
+DEN,Sam's Club,V40005651,W407459,96.38,96.37,8.57,Discount Labor Line,Mountain Power,06/04/21
 DEN,HD Pro,V10328971,W1076419,780.37,730.75,20.39,Entry Error - Labor Quantity,Service,08/03/21
 DEN,KeHE,V10309611,W1066251-1,404.67,271.15,-133.00,Entry Error - Labor Quantity,Service,01/14/21
 DEN,KeHE,V10325680,W1075336,207.00,172.50,-34.50,Entry Error - Labor Quantity,Service,06/30/21
-DEN,Mattress Firm,V40005324,W406670,269.04,269.09,29.69,Entry Error - Labor Quantity,Mountain Power,02/17/21
-DEN,Mattress Firm,V40006329,W408377,523.55,523.30,-37.26,Entry Error - Labor Quantity,Mountain Power,11/03/21
-DEN,Mattress Firm,V40006360,W408443,363.91,363.91,31.05,Entry Error - Labor Quantity,Mountain Power,11/15/21
-DEN,Office Depot,V10323384,W1073048,396.39,384.31,4.69,Entry Error - Labor Quantity,Service,06/08/21
-DEN,Peloton,V40005643,W407451,138.00,138.06,20.76,Entry Error - Labor Quantity,Mountain Power,07/12/21
-DEN,Sam's Club,V40005345,W406973,120.81,120.82,-9.15,Entry Error - Labor Quantity,Mountain Power,02/10/21
 DEN,Sam's Club,V40005651,W407459,96.38,96.37,-8.56,Entry Error - Labor Quantity,Mountain Power,06/04/21
-DEN,Sam's Club,V40006060,W407919,157.37,157.54,-16.65,Entry Error - Labor Quantity,Mountain Power,10/15/21
-DEN,Sam's Club,V40006191,W408179,121.89,121.89,-12.49,Entry Error - Labor Quantity,Mountain Power,10/15/21
-DEN,Sam's Club,V40006352,W408423,138.89,138.88,8.32,Entry Error - Labor Quantity,Mountain Power,11/15/21
-DEN,Walmart,V40006233,W408242,206.79,207.41,-31.05,Entry Error - Labor Quantity,Mountain Power,10/15/21
-DEN,Walmart,V40006368,W408408,195.61,196.23,21.74,Entry Error - Labor Quantity,Mountain Power,11/22/21
+DEN,Harbor Freight,V40005577,W407398,132.06,132.06,-0.85,Entry Error - Labor Quantity,Mountain Power,06/18/21
+DEN,Harbor Freight,V40005577,W407398,132.06,132.06,11.59,Entry Error - Misc Charge,Mountain Power,06/18/21
+DEN,Office Depot,V10323384,W1073048,396.39,384.31,4.69,Entry Error - Labor Quantity,Service,06/08/21
+DEN,Harbor Freight,V40005577,W407398,132.06,132.06,-10.28,Environmental Fee,Mountain Power,06/18/21
+DEN,Harbor Freight,V40005577,W407398,132.06,132.06,0.43,Incorrect Labor Rate,Mountain Power,06/18/21
+DEN,Harbor Freight,V40005577,W407398,132.06,132.06,-0.89,Tax,Mountain Power,06/18/21
+DEN,Peloton,V40005643,W407451,138.00,138.06,20.76,Entry Error - Labor Quantity,Mountain Power,07/12/21
+DEN,Peloton,V40005643,W407451,138.00,138.06,-20.70,Incorrect Labor Rate,Mountain Power,07/12/21
+DEN,Wayfair,V40005944,W407772,428.84,428.84,25.33,Entry Error - Misc Charge,Mountain Power,08/03/21
+DEN,Wayfair,V40005944,W407772,428.84,428.84,-25.33,Environmental Fee,Mountain Power,08/03/21
+DEN,HD Pro,V40005811,W407623,1140.00,1139.43,-0.57,Entry Error - Labor Quantity,Mountain Power,08/16/21
 DEN,Walmart,V10309884,W1066350,141.60,140.80,-0.80,Entry Error - Labor Quantity,Service,01/18/21
 DEN,Walmart,V10320785,W1072156,813.86,729.78,-79.16,Entry Error - Labor Quantity,Service,05/07/21
 SLC,Aramsco,V30099721,W352052,2426.53,1761.23,-617.10,Entry Error - Labor Quantity,Service,03/25/21
@@ -705,13 +705,13 @@ SLC,Grainger,V30098423,W351974,461.20,456.83,168.80,Entry Error - Labor Quantity
 SLC,Grainger,V30102090,W353739-1,664.05,490.58,-167.40,Entry Error - Labor Quantity,Service,05/25/21
 SLC,Grainger,V30102687,W354113,499.91,481.08,-28.13,Entry Error - Labor Quantity,Service,06/15/21
 SLC,XPO,V30100897,W353229,1379.77,720.48,-297.00,Entry Error - Labor Quantity,Service,04/23/21
-ABQ,Aramsco,V40006178,B4004377,3717.77,3717.80,237.83,Entry Error - Misc Charge,Mountain Power,10/01/21
-DEN,Harbor Freight,V40005577,W407398,132.06,132.06,11.59,Entry Error - Misc Charge,Mountain Power,06/18/21
-DEN,Mattress Firm,V40006350,B4004564,2900.97,2900.97,208.65,Entry Error - Misc Charge,Mountain Power,11/12/21
-DEN,Wayfair,V40005519,W407247,256.14,256.14,21.54,Entry Error - Misc Charge,Mountain Power,04/27/21
-DEN,Wayfair,V40005944,W407772,428.84,428.84,25.33,Entry Error - Misc Charge,Mountain Power,08/03/21
 DEN,Wayfair,V40006119,W408083,78.12,78.12,6.12,Entry Error - Misc Charge,Mountain Power,09/13/21
+DEN,Wayfair,V40006119,W408083,78.12,78.12,-6.12,Environmental Fee,Mountain Power,09/13/21
 DEN,Wayfair,V40005554,W407295,587.56,587.56,47.12,Entry Error - Misc Charge,Mountain Power,09/28/21
+DEN,Wayfair,V40005554,W407295,587.56,587.56,-27.92,Environmental Fee,Mountain Power,09/28/21
+DEN,Wayfair,V40005554,W407295,587.56,587.56,-19.20,Tax,Mountain Power,09/28/21
+ABQ,Aramsco,V40006178,B4004377,3717.77,3717.80,0.03,Entry Error - Labor Quantity,Mountain Power,10/01/21
+ABQ,Aramsco,V40006178,B4004377,3717.77,3717.80,237.83,Entry Error - Misc Charge,Mountain Power,10/01/21
 SLC,Amazon,V30097539,W351203,228.00,225.00,-3.00,Entry Error - Misc Charge,Service,02/02/21
 SLC,Amazon,V30097542,W351047,57.60,67.50,9.90,Entry Error - Misc Charge,Service,03/26/21
 SLC,Amazon,V30097543,W351051,222.24,225.00,2.76,Entry Error - Misc Charge,Service,03/26/21
@@ -764,7 +764,7 @@ DEN,Amazon,V10330814,W1078376,561.36,536.94,24.12,Entry Error - Part Quantity,Se
 DEN,Home Depot,V10323331,W1073659,1022.30,992.01,-8.92,Entry Error - Part Quantity,Service,06/07/21
 DEN,KeHE,V10309385,W1065644,1215.54,1239.85,68.75,Entry Error - Part Quantity,Service,01/13/21
 DEN,KeHE,V10319639,W1071172,759.16,727.20,-5.08,Entry Error - Part Quantity,Service,04/27/21
-DEN,Mattress Firm,V40005324,W406670,269.04,269.09,-29.64,Entry Error - Part Quantity,Mountain Power,02/17/21
+ABQ,Aramsco,V40006178,B4004377,3717.77,3717.80,-237.83,Tax,Mountain Power,10/01/21
 DEN,Sam's Club,V10310612,W1066875,63.73,45.79,-17.94,Entry Error - Part Quantity,Service,01/25/21
 DEN,US Autoforce,V10328227,SM1137473-2,101.41,93.39,-7.16,Entry Error - Part Quantity,Service,07/27/21
 DEN,Walmart,V10314539,W1068808,448.08,438.10,-9.98,Entry Error - Part Quantity,Service,03/05/21
@@ -786,10 +786,10 @@ DEN,Walmart,V10311963,W1064312,170.84,171.81,35.00,Entry Error - SM Pricing,Serv
 DEN,Walmart,V10311970,SM1127770,156.78,158.69,32.00,Entry Error - SM Pricing,Service,02/08/21
 DEN,Gensco,V10328003,W1073492,3308.45,3236.77,-11.15,Entry Error - Tire Press,Service,07/26/21
 DEN,Amazon,V10327265,W1076032-1,180.00,202.50,22.50,Entry Error - Travel Quantity,Service,07/19/21
-DEN,Sam's Club,V40006060,W407919,157.37,157.54,2.50,Entry Error - Travel Quantity,Mountain Power,10/15/21
-DEN,Sam's Club,V40006352,W408423,138.89,138.88,-21.65,Entry Error - Travel Quantity,Mountain Power,11/15/21
+DEN,Sam's Club,V40006060,W407919,157.37,157.54,14.32,Discount Labor Line,Mountain Power,10/15/21
+DEN,Sam's Club,V40006191,W408179,121.89,121.89,12.49,Discount Labor Line,Mountain Power,10/15/21
 DEN,US Autoforce,V10319951,W1071734,113.05,169.58,56.53,Entry Error - Travel Quantity,Service,04/29/21
-DEN,Walmart,V40006233,W408242,206.79,207.41,8.69,Entry Error - Travel Quantity,Mountain Power,10/15/21
+DEN,Walmart,V40006233,W408242,206.79,207.41,22.98,Discount Labor Line,Mountain Power,10/15/21
 SLC,Amazon,V30101917,W353878,733.44,765.19,90.00,Entry Error - Travel Quantity,Service,05/20/21
 SLC,Amazon,V30100022,W352841,180.00,90.00,-90.00,Entry Error - Travel Quantity,Service,06/22/21
 SLC,Amazon,V30103703,W355100,711.77,604.33,-51.30,Entry Error - Travel Quantity,Service,07/16/21
@@ -832,13 +832,13 @@ DEN,Office Depot,V10316569,W1069588,504.37,485.01,-0.03,Entry Error - Travel Rat
 SLC,Sam's Club,V30102520,W354244,740.66,722.42,-0.30,Entry Error - Travel Rate,Service,06/10/21
 ABQ,Bunzl,V20084660,SM2039620,70.53,65.00,-5.53,Environmental Fee,Service,10/07/21
 ABQ,Grainger,V20079299,SM2037096,81.38,75.00,-6.38,Environmental Fee,Service,03/11/21
-DEN,Harbor Freight,V40005577,W407398,132.06,132.06,-10.28,Environmental Fee,Mountain Power,06/18/21
+DEN,Sam's Club,V40006060,W407919,157.37,157.54,-16.65,Entry Error - Labor Quantity,Mountain Power,10/15/21
 DEN,XPO,V10326161,W1075673,439.04,418.00,-21.04,Environmental Fee,Service,07/07/21
 DEN,Office Depot,V10327673,W1075396,738.75,667.70,-48.66,Environmental Fee,Service,07/22/21
-DEN,Wayfair,V40005519,W407247,256.14,256.14,-19.94,Environmental Fee,Mountain Power,04/27/21
-DEN,Wayfair,V40005944,W407772,428.84,428.84,-25.33,Environmental Fee,Mountain Power,08/03/21
-DEN,Wayfair,V40006119,W408083,78.12,78.12,-6.12,Environmental Fee,Mountain Power,09/13/21
-DEN,Wayfair,V40005554,W407295,587.56,587.56,-27.92,Environmental Fee,Mountain Power,09/28/21
+DEN,Sam's Club,V40006191,W408179,121.89,121.89,-12.49,Entry Error - Labor Quantity,Mountain Power,10/15/21
+DEN,Walmart,V40006233,W408242,206.79,207.41,-31.05,Entry Error - Labor Quantity,Mountain Power,10/15/21
+DEN,Sam's Club,V40006060,W407919,157.37,157.54,2.50,Entry Error - Travel Quantity,Mountain Power,10/15/21
+DEN,Walmart,V40006233,W408242,206.79,207.41,8.69,Entry Error - Travel Quantity,Mountain Power,10/15/21
 SLC,Aramsco,V30097492,SM3039839,110.56,95.00,-8.08,Environmental Fee,Service,01/27/21
 SLC,Aramsco,V30097493,SM3039931,87.28,75.00,-6.38,Environmental Fee,Service,01/27/21
 SLC,Aramsco,V30097546,W351617,1003.41,1028.99,-50.00,Environmental Fee,Service,01/28/21
@@ -1192,7 +1192,7 @@ ABQ,TBC International,V20079846,W239586,493.15,513.15,20.00,Incorrect Labor Rate
 ABQ,Walmart,V20082990,W241458,1558.55,1236.92,16.21,Incorrect Labor Rate,Service,08/04/21
 ABQ,Grainger,V20081649,W240797,193.50,186.73,-6.77,Incorrect Labor Rate,Service,06/15/21
 ABQ,Costco,V20085873,W242110-1,4235.98,3871.95,-129.00,Incorrect Labor Rate,Service,11/29/21
-DEN,Amazon,V40005403,W407072,71.63,71.64,-21.50,Incorrect Labor Rate,Mountain Power,03/04/21
+DEN,Mattress Firm,V40006329,W408377,523.55,523.30,37.01,Discount Labor Line,Mountain Power,11/03/21
 DEN,Amazon,V10313888,W1066692,213.63,209.67,-17.20,Incorrect Labor Rate,Service,02/26/21
 DEN,Amazon,V10326881,SM1136863-2,78.46,52.31,-24.00,Incorrect Labor Rate,Service,07/15/21
 DEN,Home Depot,V10314269,W1068911,275.54,220.77,0.51,Incorrect Labor Rate,Service,03/03/21
@@ -1202,10 +1202,10 @@ DEN,Home Depot,V10315521,W1069105,458.89,446.76,2.93,Incorrect Labor Rate,Servic
 DEN,Home Depot,V10315578,W1068965,607.94,592.10,4.68,Incorrect Labor Rate,Service,03/17/21
 DEN,Home Depot,V10321813,W1071866,1881.98,1546.04,-238.67,Incorrect Labor Rate,Service,05/20/21
 DEN,Home Depot,V10329013,W1076308,637.94,604.67,2.11,Incorrect Labor Rate,Service,07/31/21
-DEN,Harbor Freight,V40005577,W407398,132.06,132.06,0.43,Incorrect Labor Rate,Mountain Power,06/18/21
-DEN,HD Pro,V40005603,W407401,137.36,137.37,0.01,Incorrect Labor Rate,Mountain Power,05/28/21
-DEN,KeHE,V40005508,W407176,171.37,171.26,-0.11,Incorrect Labor Rate,Mountain Power,04/23/21
-DEN,Peloton,V40005643,W407451,138.00,138.06,-20.70,Incorrect Labor Rate,Mountain Power,07/12/21
+DEN,Mattress Firm,V40006329,W408377,523.55,523.30,-37.26,Entry Error - Labor Quantity,Mountain Power,11/03/21
+DEN,Mattress Firm,V40006350,B4004564,2900.97,2900.97,208.65,Entry Error - Misc Charge,Mountain Power,11/12/21
+DEN,Mattress Firm,V40006350,B4004564,2900.97,2900.97,-208.65,Tax,Mountain Power,11/12/21
+DEN,Mattress Firm,V40006360,W408443,363.91,363.91,-31.05,Discount Labor Line,Mountain Power,11/15/21
 DEN,Sam's Club,V10319631,W1071507,779.96,683.68,-27.40,Incorrect Labor Rate,Service,04/27/21
 DEN,US Autoforce,V10311599,W1067374,1078.59,974.64,-14.96,Incorrect Labor Rate,Service,02/03/21
 DEN,US Autoforce,V10319955,W1071611,654.31,578.56,-74.85,Incorrect Labor Rate,Service,04/29/21
@@ -1446,7 +1446,7 @@ ABQ,Walmart,V20078135,W238987,598.95,544.50,-54.45,Over NTE,Service,01/20/21
 DEN,Amazon,V10322423,C1084871,2814.09,2288.28,-525.81,Over NTE,Parts,06/07/21
 DEN,HD Supply,V10318260,W1069747,811.81,748.14,-59.67,Over NTE,Service,04/13/21
 DEN,HD Supply,V10328851,W1071510,6917.58,6784.66,-132.92,Over NTE,Service,07/30/21
-DEN,HD Pro,V40005286,W406873,938.00,918.05,-19.95,Over NTE,Mountain Power,01/15/21
+DEN,Sam's Club,V40006352,W408423,138.89,138.88,13.32,Discount Labor Line,Mountain Power,11/15/21
 DEN,HD Pro,V10309599,W1065849,854.44,747.77,-106.67,Over NTE,Service,01/14/21
 DEN,HD Pro,V10327007,W1073411,1003.60,742.99,-260.61,Over NTE,Service,06/24/21
 DEN,Sam's Club,V10341271,W1081439,1498.52,1494.52,-4.00,Over NTE,Service,11/30/21
@@ -2740,18 +2740,18 @@ SLC,XPO,V30107589,W357377,437.84,420.83,0.99,Productive Rounding,Service,10/25/2
 SLC,XPO,V30107590,W357378,457.64,440.63,0.99,Productive Rounding,Service,10/25/21
 SLC,XPO,V30108110,W357641,170.34,170.15,0.99,Productive Rounding,Service,11/04/21
 SLC,Grainger,V30107578,W357423,233.67,232.50,-1.16,Productive Rounding,Service,10/25/21
-ABQ,Aramsco,V40006178,B4004377,3717.77,3717.80,-237.83,Tax,Mountain Power,10/01/21
+DEN,Mattress Firm,V40006360,W408443,363.91,363.91,31.05,Entry Error - Labor Quantity,Mountain Power,11/15/21
 ABQ,Costco,V20084343,W242317,834.95,696.60,-60.95,Tax,Service,10/05/21
 ABQ,TBC International,V20078911,SM2037200,91.69,85.00,-6.69,Tax,Service,02/25/21
 ABQ,TBC International,V20078974,W239414,104.42,96.80,-7.62,Tax,Service,02/25/21
 ABQ,TBC International,V20084345,SM2039494,91.69,85.00,-6.69,Tax,Service,10/05/21
 ABQ,TBC International,V20084834,W242075,494.28,458.20,-36.08,Tax,Service,10/14/21
-DEN,Harbor Freight,V40005577,W407398,132.06,132.06,-0.89,Tax,Mountain Power,06/18/21
+DEN,Sam's Club,V40006352,W408423,138.89,138.88,8.32,Entry Error - Labor Quantity,Mountain Power,11/15/21
 DEN,Harbor Freight,V10322723,W1071686,709.44,697.63,-6.71,Tax,Service,06/03/21
-DEN,Mattress Firm,V40006350,B4004564,2900.97,2900.97,-208.65,Tax,Mountain Power,11/12/21
+DEN,Sam's Club,V40006352,W408423,138.89,138.88,-21.65,Entry Error - Travel Quantity,Mountain Power,11/15/21
 DEN,Office Depot,V10327673,W1075396,738.75,667.70,-13.48,Tax,Service,07/22/21
-DEN,Wayfair,V40005519,W407247,256.14,256.14,-1.60,Tax,Mountain Power,04/27/21
-DEN,Wayfair,V40005554,W407295,587.56,587.56,-19.20,Tax,Mountain Power,09/28/21
+DEN,Walmart,V40006368,W408408,195.61,196.23,-21.74,Discount Labor Line,Mountain Power,11/22/21
+DEN,Walmart,V40006368,W408408,195.61,196.23,21.74,Entry Error - Labor Quantity,Mountain Power,11/22/21
 SLC,Aramsco,V30097492,SM3039839,110.56,95.00,-7.48,Tax,Service,01/27/21
 SLC,Aramsco,V30097493,SM3039931,87.28,75.00,-5.90,Tax,Service,01/27/21
 SLC,Aramsco,V30097546,W351617,1003.41,1028.99,-67.85,Tax,Service,01/28/21
