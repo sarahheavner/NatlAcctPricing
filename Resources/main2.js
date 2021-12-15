@@ -38,6 +38,18 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(pieData) {
         };
     };
 
+    //variable for pie chart
+    var pieData = [{
+        values: [ABQ_INV, DEN_INV, SLC_INV],
+        labels: ["ABQ", "DEN", "SLC"],
+        type: "pie"
+    }];
+    console.log(pieData);
+
+
+
+    Plotly.newPlot('pie', pieData)
+
 
 
 });
