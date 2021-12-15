@@ -39,28 +39,32 @@
 
   <!-- main text paragraph -->
   <p>The purpose of this analysis is to identify, categorize, and quantify the causes of pricing discrepancies 
-  between the invoiced amount in Quipware against the amount Raymond is paying. This analysis provides 
-  insight on opportunities to improve our invoicing accuracy with the end goal of Raymond National Accounts
-  having no financial impact on the overall P/L. 
-  </p>
-
-
-
-    <!-- create table for invoice stats -->
-    <div id="table-area" class="table-bordered">
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">Branch</th>
-            <th scope="col">Invoice Count</th>
-            <th scope="col">Invoice W/ Error</th>
-            <th scope="col">Invoice W/O Error</th>
-            <th scope="col">Error Percentage</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
+    between the invoiced amount in Quipware against the amount Raymond is paying. This analysis provides 
+    insight on opportunities to improve our invoicing accuracy with the end goal of Raymond National Accounts
+    having no financial impact on the overall P/L. 
+    </p>
+  
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-med-8">
+            <!-- create table for invoice stats -->
+            <div id="table-area">
+              <table class="table table-sm table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Branch</th>
+                    <th scope="col">Invoices</th>
+                    <th scope="col">W/ Error</th>
+                    <th scope="col">W/O Error</th>
+                    <th scope="col">Error %</th>
+                  </tr>
+                </thead>
+                <!-- tbody left blank, will fill in data via main.js -->
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+      </div>
 
 
 </body>
