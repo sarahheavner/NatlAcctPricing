@@ -14,42 +14,33 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(tData) {
     });
 });
 
-d3.csv("Resources/CleanData/StatSummary.csv").then(function(pieData) {
-    console.log(pieData);
+d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
+    console.log(invData);
 
     // create variable for each branch total invoices
-    var ABQ_INV = [];
-    var DEN_INV = [];
-    var SLC_INV = [];
+    var branch_inv = []
+    var branch_name = []
 
     // loop through csv rows and store Total_Inv into variables based on Branch
-    for (var i = 0; i < pieData.length; i++) {
-        if (pieData[i].Branch === "ABQ") {
-            ABQ_INV.push(pieData[i].Total_Inv);
-            console.log(ABQ_INV)
-        };
-        if (pieData[i].Branch === "DEN") {
-            DEN_INV.push(pieData[i].Total_Inv);
-            console.log(DEN_INV)
-        };
-        if (pieData[i].Branch === "SLC") {
-            SLC_INV.push(pieData[i].Total_Inv);
-            console.log(SLC_INV)
-        };
+    for (var i = 0; i < 3; i++) {
+        branch_inv.push(invData[i].Total_Inv);
+        console.log(branch_inv)
+        branch_name.push(invData[i].Branch);
+        console.log(branch_name)
     };
 
-    //variable for pie chart
-    var pieData = [{
-        values: [ABQ_INV, DEN_INV, SLC_INV],
-        labels: ["ABQ", "DEN", "SLC"],
+
+//variable for pie chart
+    var data = [{
+        values: branch_inv,
+        labels: branch_name,
         type: "pie"
     }];
-    console.log(pieData);
+
+        
+    console.log(data);
 
 
 
-    Plotly.newPlot('pie', pieData)
-
-
-
+    Plotly.newPlot("pie", data)
 });
