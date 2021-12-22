@@ -28,23 +28,30 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
     // loop through rows 0-2 of csv to save branch data. Do not last row for chart.
     for (var i = 0; i < 3; i++) {
         branch_inv.push(invData[i].Total_Inv);
-        console.log(branch_inv)
         branch_name.push(invData[i].Branch);
-        console.log(branch_name)
     };
+    console.log(branch_inv)
+    console.log(branch_name)
 
 
 //variable for pie chart
     var pieData = [{
         values: branch_inv,
         labels: branch_name,
+        textinfo: "label+value",
         type: "pie"
     }];
-
-        
+            
     console.log(pieData);
+    
+    var layout = {
+        title: "Invoice Count Per Branch",
+        height: 400,
+        width: 400,
+        showlegend: false,
+    }
 
 
 
-    Plotly.newPlot("pie", pieData)
+    Plotly.newPlot("pie", pieData, layout)
 });
