@@ -83,7 +83,7 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
 
     var barData = [issueTrace, NoIssueTrace];
 
-    var barlayout = {barmode: "stack"};
+    var barlayout = {barmode: "group"};
 
     Plotly.newPlot("bar", barData, barlayout);
 

@@ -2995,3 +2995,67 @@ SLC,XPO,V30108988,W358254,659.95,641.95,-18.00,Part Pricing - Raymond,Service,12
 SLC,Walmart,V30109000,W358218,781.42,835.30,72.45,Incorrect Labor Rate,Service,12/07/21
 SLC,Walmart,V30109000,W358218,781.42,835.30,-18.56,Part Pricing - Raymond,Service,12/07/21
 SLC,Home Depot,V30109015,W358161,968.63,972.52,3.90,Incorrect Labor Rate,Service,12/07/21
+DEN,Walmart,V10343136,W1083062,164.83,117.05,-2.35,Part Pricing - TVH/Durasource,Service,12/16/21
+DEN,Walmart,V10343136,W1083062,164.83,117.05,-34.58,Consumables,Service,12/16/21
+DEN,Walmart,V10343136,W1083062,164.83,117.05,-10.85,Over NTE,Service,12/16/21
+DEN,Home Depot,V10343141,W1084731,331.15,329.34,-1.81,Part Pricing - Raymond,Service,12/16/21
+DEN,Sealy Mattress,V10343184,SM1143960,93.96,75.00,-18.96,Consumables,Service,12/16/21
+DEN,Amazon,V10343302,SM1143696-2,526.08,514.74,-11.34,Part Pricing - Raymond,Service,12/17/21
+DEN,Amazon,V10343320,SM1143695,87.22,80.00,-7.22,Consumables,Service,12/17/21
+DEN,Amazon,V10343331,W1085054,333.00,385.24,52.24,Part Pricing - Raymond,Service,12/17/21
+DEN,Home Depot,V10343337,W1084969,512.21,495.76,-16.45,Part Pricing - Raymond,Service,12/17/21
+DEN,Walmart,V10343442,W1085037,445.48,441.46,-4.02,Part Pricing - Raymond,Service,12/20/21
+DEN,Walmart,V10343454,W1084827,706.55,695.83,-10.72,Part Pricing - Raymond,Service,12/20/21
+DEN,Amazon,V10343467,W1084822,103.62,103.12,-0.50,Part Pricing - Raymond,Service,12/20/21
+DEN,Amazon,V10343476,W1084823,137.37,136.87,-0.50,Part Pricing - Raymond,Service,12/20/21
+DEN,Amazon,V10343485,W1085155,68.38,68.22,-0.16,Part Pricing - Raymond,Service,12/20/21
+DEN,Home Depot,V10343507,W1079781,350.59,349.96,-0.63,Part Pricing - Raymond,Service,12/20/21
+DEN,HD Supply,V10343536,SM1143947,189.54,95.00,-94.54,Consumables,Service,12/20/21
+DEN,HD Supply,V10343538,SM1143765,173.54,95.00,-78.54,Consumables,Service,12/20/21
+DEN,Amazon,V10343541,W1084244,939.78,829.76,-110.02,Part Pricing - Raymond,Service,12/20/21
+DEN,HD Pro,V10343562,W1085016,572.65,547.89,-24.76,Part Pricing - Raymond,Service,12/21/21
+DEN,Walmart,V10343569,W1085093,781.21,780.05,-1.17,Part Pricing - Raymond,Service,12/21/21
+DEN,Home Depot,V10343599,SM1143324,86.06,75.00,-11.06,Part Pricing - Raymond,Service,12/21/21
+DEN,US Autoforce,V10343680,W1085219,151.39,147.90,-3.49,Part Pricing - Raymond,Service,12/21/21
+DEN,Amazon,V10343693,W1084824,401.85,382.27,-19.58,Part Pricing - Raymond,Service,12/21/21
+DEN,Amazon,V10343802,W1085157,445.98,420.12,-25.86,Part Pricing - Raymond,Service,12/22/21
+DEN,Sealy Mattress,V10343944,W1083627,1943.82,1797.05,-146.77,Part Pricing - Raymond,Service,12/22/21
+DEN,Sealy Mattress,V10343946,W1083630,1943.82,1797.05,-146.77,Part Pricing - Raymond,Service,12/22/21
+DEN,Home Depot,V10343989,W1085322,211.76,203.59,-8.17,Part Pricing - Raymond,Service,12/23/21
+SLC,Amazon,V30109007,W357967,1794.72,1696.47,-99.15,Part Pricing - Raymond,Service,12/07/21
+SLC,Amazon,V30109007,W357967,1794.72,1696.47,0.90,Productive Rounding,Service,12/07/21
+SLC,US Autoforce,V30109354,SM3044381,98.20,84.00,-7.14,Environmental Fee,Service,12/17/21
+SLC,US Autoforce,V30109354,SM3044381,98.20,84.00,-7.06,Tax,Service,12/17/21
+DEN,Medline,V10342672,C1091897,80.84,74.30,-6.54,Tax,Parts,12/13/21
+SLC,Kuehne & Nagel,V30109212,W358341,1576.62,1446.85,-129.76,Part Pricing - Raymond,Service,12/16/21
+SLC,Amazon,V30109219,W358416,250.84,209.62,-32.50,Incorrect Labor Rate,Service,12/16/21
+SLC,Amazon,V30109219,W358416,250.84,209.62,-8.72,Part Pricing - Raymond,Service,12/16/21
+SLC,Amazon,V30109220,W358419,215.98,174.79,-16.25,Incorrect Labor Rate,Service,12/16/21
+SLC,Amazon,V30109220,W358419,215.98,174.79,-24.94,Part Pricing - Raymond,Service,12/16/21
+SLC,Amazon,V30109221,W358453,132.82,112.50,-20.31,Incorrect Labor Rate,Service,12/16/21
+SLC,Amazon,V30109222,W358414,226.32,191.70,-34.62,Incorrect Labor Rate,Service,12/16/21
+SLC,Amazon,V30109223,SM3044328-2,328.38,291.80,-16.58,Incorrect Labor Rate,Service,12/16/21
+SLC,Amazon,V30109223,SM3044328-2,328.38,291.80,-20.00,Part Pricing - Raymond,Service,12/16/21
+SLC,Medline,V30109313,W358361,1445.58,1386.83,-62.02,Part Pricing - Raymond,Service,12/16/21
+SLC,Medline,V30109313,W358361,1445.58,1386.83,3.27,Productive Rounding,Service,12/16/21
+SLC,Home Depot,V30109310,SM3044413,62.46,55.00,-7.46,Consumables,Service,12/16/21
+SLC,Home Depot,V30109226,SM3044410,101.41,85.00,-16.41,Consumables,Service,12/16/21
+SLC,Home Depot,V30109227,SM3044217,109.77,85.00,-24.77,Consumables,Service,12/16/21
+SLC,Home Depot,V30109229,SM3044192,104.73,85.00,-19.73,Consumables,Service,12/16/21
+ABQ,Baker Distributing,V20085929,SM2040090,235.04,218.76,-0.53,Part Pricing - Raymond,Service,12/13/21
+ABQ,Baker Distributing,V20085929,SM2040090,235.04,218.76,-15.75,Incorrect Labor Rate,Service,12/13/21
+ABQ,Harbor Freight,V20085939,W243173,339.72,261.23,-24.67,Environmental Fee,Service,12/13/21
+ABQ,Harbor Freight,V20085939,W243173,339.72,261.23,-24.80,Tax,Service,12/13/21
+ABQ,Harbor Freight,V20085939,W243173,339.72,261.23,-29.02,Incorrect Labor Rate,Service,12/13/21
+ABQ,Bunzl,V20086361,W243446,358.54,333.78,-24.76,Part Pricing - Raymond,Service,12/14/21
+ABQ,Costco,V20086571,SM2040309,425.23,418.07,-7.16,Consumables,Service,12/17/21
+SLC,Walmart,V30109231,W358302,489.38,496.94,7.56,Incorrect Labor Rate,Service,12/16/21
+SLC,Walmart,V30109233,W358306,494.34,517.32,42.46,Incorrect Labor Rate,Service,12/16/21
+SLC,Walmart,V30109233,W358306,494.34,517.32,-19.48,Part Pricing - Raymond,Service,12/16/21
+DEN,Lineage Logistics,V10341491,W1084065,539.66,521.14,-18.52,Part Pricing - Raymond,Parts,12/16/21
+SLC,Aramsco,V30109208,W358356,531.25,584.81,53.55,Incorrect Labor Rate,Service,12/16/21
+SLC,Harbor Freight,V30109063,W357841,1052.05,848.10,-37.03,Environmental Fee,Service,12/16/21
+SLC,Harbor Freight,V30109063,W357841,1052.05,848.10,-75.67,Tax,Service,12/16/21
+SLC,Harbor Freight,V30109063,W357841,1052.05,848.10,-45.80,Part Pricing - Raymond,Service,12/16/21
+SLC,Harbor Freight,V30109063,W357841,1052.05,848.10,-54.45,Entry Error - Travel Quantity,Service,12/16/21
+SLC,Harbor Freight,V30109063,W357841,1052.05,848.10,9.00,Incorrect Labor Rate,Service,12/16/21
