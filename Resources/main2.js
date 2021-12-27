@@ -169,4 +169,35 @@ d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) 
     console.log(november);
     console.log(december);
 
+
+    var traceabq = {
+        x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        y: [january[0], february[0], march[0], april[0], may[0], june[0], july[0], august[0], september[0], october[0], november[0], december[0]],
+        name: "ABQ",
+        type: "bar"
+    };
+
+    var traceden = {
+        x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        y: [january[1], february[1], march[1], april[1], may[1], june[1], july[1], august[1], september[1], october[1], november[1], december[1]],
+        name: "DEN",
+        type: "bar"
+    };
+
+    var traceslc = {
+        x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        y: [january[2], february[2], march[2], april[2], may[2], june[2], july[2], august[2], september[2], october[2], november[2], december[2]],
+        name: "SLC",
+        type: "bar"
+    };
+
+    var stackedData = [traceabq, traceden, traceslc];
+
+    layout = {
+        barmode: "stack"
+    };
+
+    Plotly.newPlot("bar-stacked", stackedData, layout)
+
+
 });
