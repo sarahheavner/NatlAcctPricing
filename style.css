@@ -19,3 +19,15 @@ p {
 }
 
 
+.table {
+    margin-top: 25%;
+}
+
+.bar-chart {
+    padding-left: 50px;
+}
+
+.pie-area {
+    padding-right: 50px;
+    padding-left: 5px;
+}

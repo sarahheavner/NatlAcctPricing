@@ -87,7 +87,7 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
             }
         ],
         height: 400,
-        width: 600,
+        width: 650,
         showlegend: false,
         grid: {rows: 1, columns: 2}
     };
@@ -130,10 +130,10 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
     var barData = [issueTrace, NoIssueTrace];
 
     var barlayout = {
-        title: "Invoice Count With Errors Vs. Without Errors",
+        title: "Invoice Count - Error Vs. No Error",
         barmode: "group",
         height: 400,
-        width: 600,
+        width: 650,
     };
 
     Plotly.newPlot("bar", barData, barlayout);
