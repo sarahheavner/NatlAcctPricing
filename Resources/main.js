@@ -73,7 +73,7 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
                 },
                 showarrow:false,
                 text: "Inv Count",
-                x: 0.16,
+                x: 0.17,
                 y: 0.5
             },
             {
@@ -137,7 +137,5 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
     };
 
     Plotly.newPlot("bar", barData, barlayout);
-
-
 
 });
