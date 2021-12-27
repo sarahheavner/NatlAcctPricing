@@ -46,31 +46,32 @@
   
     <div class="container-fluid">
       <div class="row">
-          <div class="col-med-8">
-            <!-- create table for invoice stats -->
-            <div id="table-area">
-              <table class="table table-sm table-striped table-bordered">
-                <thead>
-                  <tr>
-                    <th scope="col">Branch</th>
-                    <th scope="col">Invoices</th>
-                    <th scope="col">W/ Error</th>
-                    <th scope="col">W/O Error</th>
-                    <th scope="col">Error %</th>
-                    <th scope="col">Total $$</th>
-                  </tr>
-                </thead>
-                <!-- tbody left blank, will fill in data via main.js -->
-                <tbody></tbody>
-              </table>
-            </div>
+
+        <!-- pie chart with invoice count-->
+        <div class="pie-area">
+          <div id="pie"></div>
+        </div>
+
+        <div class="col-med-8">
+          <!-- create table for invoice stats -->
+          <div id="table-area">
+            <table class="table table-sm table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Branch</th>
+                  <th scope="col">Invoices</th>
+                  <th scope="col">W/ Error</th>
+                  <th scope="col">W/O Error</th>
+                  <th scope="col">Error %</th>
+                  <th scope="col">Total $$</th>
+                </tr>
+              </thead>
+              <!-- tbody left blank, will fill in data via main.js -->
+              <tbody></tbody>
+            </table>
           </div>
+        </div>
       
-
-
-    <div class="pie-area">
-        <div id="pie"></div>
-    </div>
 
     <div class="bar-chart">
       <div id="bar"></div>   
