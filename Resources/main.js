@@ -49,7 +49,7 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
         labels: branch_name,
         domain: {column: 0},
         name: "Invoice Count",
-        textinfo: "label+value+percent",
+        textinfo: "label+percent",
         hole: 0.4,
         type: "pie"
     },{
@@ -57,7 +57,7 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
         labels: branch_name,
         domain: {column: 1},
         name: "Dollar Amount",
-        textinfo: "label+value+percent",
+        textinfo: "label+percent",
         hole: 0.4,
         type: "pie"
     }];
@@ -102,7 +102,12 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
         y: branch_issue,
         name: "Issue",
         marker: {
-            color: "#ff0000"
+            color: "#E1361E",
+            opacity: 0.85,
+            line: {
+                color: "#701b0f",
+                width: 1
+            }
         },
         type: "bar"
     };
@@ -112,14 +117,24 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
         y: branch_no_issue,
         name: "No Issue",
         marker: {
-            color: "#009933"
+            color: "#1EC9E1",
+            opacity: 0.85,
+            line: {
+                color: "#0f6570",
+                width: 1
+            }
         },
         type: "bar"
     };
 
     var barData = [issueTrace, NoIssueTrace];
 
-    var barlayout = {barmode: "group"};
+    var barlayout = {
+        title: "Invoice Count With Errors Vs. Without Errors",
+        barmode: "group",
+        height: 400,
+        width: 600,
+    };
 
     Plotly.newPlot("bar", barData, barlayout);
 
