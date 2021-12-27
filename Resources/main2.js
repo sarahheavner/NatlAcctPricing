@@ -92,10 +92,6 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
     Plotly.newPlot("pie", pieData, layout)
 
 
-
-
-
-
     //variable for issue/no issue invoice count bar chart
     var issueTrace = {
         x: branch_name,
@@ -123,8 +119,54 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
 
     Plotly.newPlot("bar", barData, barlayout);
 
-
-
 });
 
+//data for dollar summary
+d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) {
+    console.log(dollarData);
 
+    var branch_name = [];
+    var january = [];
+    var february = [];
+    var march = [];
+    var april = [];
+    var may = [];
+    var june = [];
+    var july= [];
+    var august = [];
+    var september = [];
+    var october = [];
+    var november = [];
+    var december = [];
+
+    for (var i = 0; i < dollarData.length; i++) {
+        branch_name.push(dollarData[i].Branch);
+        january.push(dollarData[i].January);
+        february.push(dollarData[i].February);
+        march.push(dollarData[i].March);
+        april.push(dollarData[i].April);
+        may.push(dollarData[i].May);
+        june.push(dollarData[i].June);
+        july.push(dollarData[i].July);
+        august.push(dollarData[i].August);
+        september.push(dollarData[i].September);
+        october.push(dollarData[i].October);
+        november.push(dollarData[i].November);  
+        december.push(dollarData[i].December);
+    };
+
+    console.log(branch_name);
+    console.log(january);
+    console.log(february);
+    console.log(march);
+    console.log(april);
+    console.log(may);
+    console.log(june);
+    console.log(july);
+    console.log(august);
+    console.log(september);
+    console.log(october);
+    console.log(november);
+    console.log(december);
+
+});
