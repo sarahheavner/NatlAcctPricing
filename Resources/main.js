@@ -141,7 +141,7 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
 });
 
 
-//data for dollar summary
+//data for monthly dollar summary
 d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) {
     console.log(dollarData);
 
@@ -214,10 +214,10 @@ d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) 
     var stackedData = [traceabq, traceden, traceslc];
 
     layout = {
+        title: "$$ Submitted Per Month",
         barmode: "stack"
     };
 
     Plotly.newPlot("bar-stacked", stackedData, layout)
-
 
 });
