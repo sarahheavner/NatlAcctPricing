@@ -194,24 +194,43 @@ d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) 
         x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
         y: [january[0], february[0], march[0], april[0], may[0], june[0], july[0], august[0], september[0], october[0], november[0], december[0]],
         name: "ABQ",
-        type: "bar"
+        type: "bar",
+        marker: {
+            color: "#009933"
+        }
     };
 
     var traceden = {
         x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
         y: [january[1], february[1], march[1], april[1], may[1], june[1], july[1], august[1], september[1], october[1], november[1], december[1]],
         name: "DEN",
-        type: "bar"
+        type: "bar",
+        marker: {
+            color: "#0066ff"
+        }
     };
 
     var traceslc = {
         x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
         y: [january[2], february[2], march[2], april[2], may[2], june[2], july[2], august[2], september[2], october[2], november[2], december[2]],
         name: "SLC",
-        type: "bar"
+        type: "bar", 
+        marker: {
+            color: "#ff9900"
+        }
     };
 
-    var stackedData = [traceabq, traceden, traceslc];
+    var tracetotal = {
+        x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        y: [january[3], february[3], march[3], april[3], may[3], june[3], july[3], august[3], september[3], october[3], november[3], december[3]],
+        name: "Total",
+        type: "line",
+        line: {
+            color: "#000000"
+        }
+    };
+
+    var stackedData = [traceabq, traceden, traceslc, tracetotal];
 
     layout = {
         title: "$$ Submitted Per Month",
