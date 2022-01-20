@@ -22,6 +22,10 @@ p {
     padding-bottom: 30px;
 }
 
+.container-fluid {
+    padding-top: 50px;
+}
+
 
 .table {
     margin-top: 25%;
