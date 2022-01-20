@@ -129,7 +129,6 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
     var barData = [issueTrace, NoIssueTrace];
 
     var barlayout = {
-        title: "Invoice Count - Error Vs. No Error",
         barmode: "group",
         height: 400,
         width: 650,
