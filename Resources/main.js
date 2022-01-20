@@ -65,7 +65,6 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
     console.log(pieData);
     
     var layout = {
-        title: "Invoice Stats per Branch",
         annotations: [
             {
                 font: {
@@ -216,7 +215,8 @@ d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) 
         name: "SLC",
         type: "bar", 
         marker: {
-            color: "#ff9900"
+            color: "#ff6600"
+
         }
     };
 
@@ -240,3 +240,5 @@ d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) 
     Plotly.newPlot("bar-stacked", stackedData, layout)
 
 });
+
+
