@@ -34,7 +34,7 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
         branch_name.push(invData[i].Branch);
         branch_issue.push(invData[i].Issue);
         branch_no_issue.push(invData[i].No_Issue);
-        branch_amt.push(invData[i].Dollar_Amt);
+        branch_amt.push(invData[i].Annual$);
     };
     console.log(branch_inv);
     console.log(branch_name);
@@ -86,7 +86,7 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
             }
         ],
         height: 400,
-        width: 650,
+        width: 550,
         showlegend: false,
         grid: {rows: 1, columns: 2}
     };
@@ -131,7 +131,7 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
     var barlayout = {
         barmode: "group",
         height: 400,
-        width: 650,
+        width: 550,
     };
 
     Plotly.newPlot("bar", barData, barlayout);
@@ -189,48 +189,44 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(dollarData) {
 
 
     var traceabq = {
-        y: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-        x: [january[0], february[0], march[0], april[0], may[0], june[0], july[0], august[0], september[0], october[0], november[0], december[0]],
+        x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        y: [january[0], february[0], march[0], april[0], may[0], june[0], july[0], august[0], september[0], october[0], november[0], december[0]],
         name: "ABQ",
-        type: "bar",
+        type: "line",
         marker: {
             color: "#009933"
         },
-        orientation: "h"
     };
 
     var traceden = {
-        y: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-        x: [january[1], february[1], march[1], april[1], may[1], june[1], july[1], august[1], september[1], october[1], november[1], december[1]],
+        x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        y: [january[1], february[1], march[1], april[1], may[1], june[1], july[1], august[1], september[1], october[1], november[1], december[1]],
         name: "DEN",
-        type: "bar",
+        type: "line",
         marker: {
             color: "#0066ff"
         },
-        orientation: "h"
     };
 
     var traceslc = {
-        y: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-        x: [january[2], february[2], march[2], april[2], may[2], june[2], july[2], august[2], september[2], october[2], november[2], december[2]],
+        x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        y: [january[2], february[2], march[2], april[2], may[2], june[2], july[2], august[2], september[2], october[2], november[2], december[2]],
         name: "SLC",
-        type: "bar", 
+        type: "line", 
         marker: {
             color: "#ff6600"
         },
-        orientation: "h"
     };
 
 
     //bar chart
-    var stackedData = [traceabq, traceden, traceslc]
+    var lineData = [traceabq, traceden, traceslc]
     layout = {
-        barmode: 'stack',
         height: 450,
-        width: 650
+        width: 550
     };
 
-    Plotly.newPlot("bar-stacked", stackedData, layout);
+    Plotly.newPlot("line", lineData, layout);
  
 });
 

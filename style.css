@@ -24,15 +24,20 @@ p {
 
 .container-fluid {
     padding-top: 30px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 .table {
-    margin-left: 80px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+.line-chart {
+    padding-left:25px;
 }
 
 /* .bar-chart {
-    padding-left: 50px;
+    padding-right: 25px;
 }
 
 .pie-area {

@@ -42,6 +42,7 @@
     <div class="container-fluid">
       <div class="row">
       
+          <!-- summary table-->
           <div id="table-area">
             <h5>Branch Invoice Stats</h5>
             <p>Monthly and annual $$ submitted per branch, total invoice count, and invoice count with and without errors </p>
@@ -73,21 +74,19 @@
             </table>
           </div>
         </div>
-      
-        <!-- bar chart with Invoice Count Error Vs. No Error-->
-        <div class="bar-chart">
-          <h5>Comparison Of Invoice Errors Vs. No Errors Per Branch</h5>
-          <p>Invoice errors include both data entry errors in the portal as well as Quipware <br>
-              issues such as incorrect part pricing, labor rates, taxes and enviro fees </p>
-          <div id="bar"></div>   
-        </div>
       <!-- close out of top row-->
       </div>
       
 
-
       <!-- new row-->
       <div class="row">
+
+        <!--stacked bar chart with monthly $$ submitted-->
+        <div class="line-chart">
+          <h5>Monthly $$ Submitted Per Branch</h5>
+          <p>Total monthly invoice amount submitted per branch </p>
+            <div id="line"></div>
+        </div>  
 
         <!-- pie charts with invoice count and $$ submitted per branch-->
         <div class="pie-area">
@@ -97,8 +96,7 @@
           <div id="pie"></div>
         </div>
 
-
-          <!-- bar chart with Invoice Count Error Vs. No Error-->
+        <!-- bar chart with Invoice Count Error Vs. No Error-->
         <div class="bar-chart">
           <h5>Comparison Of Invoice Errors Vs. No Errors Per Branch</h5>
           <p>Invoice errors include both data entry errors in the portal as well as Quipware <br>
@@ -106,21 +104,8 @@
           <div id="bar"></div>   
         </div>
 
-
-
-
-
-          <!--stacked bar chart with monthly $$ submitted-->
-          <div class="bar-chart">
-            <h5>Monthly $$ Submitted Per Branch</h5>
-            <p>Total monthly invoice amount submitted per branch </p>
-              <div id="bar-stacked"></div>
-          </div>    
-
-            
-
-        <!-- close out of 2nd row-->
-        </div>
+      <!-- close out of 2nd row-->
+      </div>
 
 
 
