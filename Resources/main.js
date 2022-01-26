@@ -221,10 +221,6 @@ d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) 
         orientation: "h"
     };
 
-    var totaltrace = {
-        x: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-        y: [january[3], february[3], march[3], april[3], may[3], june[3], july[3], august[3], september[3], october[3], november[3], december[3]], 
-    };
 
     //bar chart
     var stackedData = [traceabq, traceden, traceslc]
@@ -237,7 +233,4 @@ d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) 
     Plotly.newPlot("bar-stacked", stackedData, layout);
  
 });
-
-
-
 
