@@ -1,5 +1,5 @@
 //connect to StatsSummary csv, read data
-d3.csv("Resources/CleanData/StatSummary.csv").then(function(tData) {
+d3.csv("Resources/CleanData/InvStats.csv").then(function(tData) {
     console.log(tData);
 
     //select tablebody to append stats
@@ -18,7 +18,7 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(tData) {
 
 
 //data for pie chart invoice count summary
-d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
+d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
     console.log(invData);
 
     // create variable for branch name (Labels) and Invoice Counts (Data) for pie and bar charts
@@ -140,7 +140,7 @@ d3.csv("Resources/CleanData/StatSummary.csv").then(function(invData) {
 
 
 //data for monthly dollar summary
-d3.csv("Resources/CleanData/BranchDollarSummary.csv").then(function(dollarData) {
+d3.csv("Resources/CleanData/InvStats.csv").then(function(dollarData) {
     console.log(dollarData);
 
     var branch_name = [];

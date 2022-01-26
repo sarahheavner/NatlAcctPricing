@@ -23,18 +23,18 @@ p {
 }
 
 .container-fluid {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-left: 50px;
 }
-
 
 .table {
-    margin-top: 25%;
+    margin-left: 80px;
 }
 
-.bar-chart {
+/* .bar-chart {
     padding-left: 50px;
 }
 
 .pie-area {
     padding-right: 50px;
-}
+} */

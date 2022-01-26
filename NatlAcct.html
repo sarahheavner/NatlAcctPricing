@@ -41,30 +41,31 @@
   <!-- first row of content-->
     <div class="container-fluid">
       <div class="row">
-        <!-- pie charts with invoice count and $$ submitted per branch-->
-        <div class="pie-area">
-          <h5> Percentage Of Invoice Count and $$ Submitted Per Branch</h5>
-          <p> Left: Percentage of the total invoice count submitted per branch<br>
-              Right: Percentage of the total invoice $$ submitted per branch</p>
-          <div id="pie"></div>
-        </div>
-        
-
-        <div class="col-med-8">
-          <!-- create table for invoice stats -->
+      
           <div id="table-area">
-            <h5>Count Of Invoices With and Without Error Per Branch</h5>
-            <p>Total invoices submitted per branch, broken down into invoices <br>
-                with and without errors, and the error percentage</p>
+            <h5>Branch Invoice Stats</h5>
+            <p>Monthly and annual $$ submitted per branch, total invoice count, and invoice count with and without errors </p>
             <table class="table table-sm table-striped table-bordered">
               <thead>
                 <tr>
                   <th scope="col">Branch</th>
-                  <th scope="col">Invoices</th>
-                  <th scope="col">W/ Error</th>
-                  <th scope="col">W/O Error</th>
+                  <th scope="col">January</th>
+                  <th scope="col">February</th>
+                  <th scope="col">March</th>
+                  <th scope="col">April</th>
+                  <th scope="col">May</th>
+                  <th scope="col">June</th>
+                  <th scope="col">July</th>
+                  <th scope="col">August</th>
+                  <th scope="col">September</th>
+                  <th scope="col">October</th>
+                  <th scope="col">November</th>
+                  <th scope="col">December</th>
+                  <th scope="col">Annual $</th>
+                  <th scope="col">Inv Count</th>
+                  <th scope="col">Inv W/ Error</th>
+                  <th scope="col">Inv W/O Error</th>
                   <th scope="col">Error %</th>
-                  <th scope="col">Total $$</th>
                 </tr>
               </thead>
               <!-- tbody left blank, will fill in data via main.js -->
@@ -86,7 +87,29 @@
 
 
       <!-- new row-->
-        <div class="row">
+      <div class="row">
+
+        <!-- pie charts with invoice count and $$ submitted per branch-->
+        <div class="pie-area">
+          <h5> Percentage Of Invoice Count and $$ Submitted Per Branch</h5>
+          <p> Left: Percentage of the total invoice count submitted per branch<br>
+              Right: Percentage of the total invoice $$ submitted per branch</p>
+          <div id="pie"></div>
+        </div>
+
+
+          <!-- bar chart with Invoice Count Error Vs. No Error-->
+        <div class="bar-chart">
+          <h5>Comparison Of Invoice Errors Vs. No Errors Per Branch</h5>
+          <p>Invoice errors include both data entry errors in the portal as well as Quipware <br>
+              issues such as incorrect part pricing, labor rates, taxes and enviro fees </p>
+          <div id="bar"></div>   
+        </div>
+
+
+
+
+
           <!--stacked bar chart with monthly $$ submitted-->
           <div class="bar-chart">
             <h5>Monthly $$ Submitted Per Branch</h5>
@@ -94,12 +117,6 @@
               <div id="bar-stacked"></div>
           </div>    
 
-          
-          <div class="table-area2">
-            <h5>Monthly Summary $$ Submitted</h5>
-            <p>THIS IS SOME TEXT</p>
-            <div id="summary-table"></div>
-            
             
 
         <!-- close out of 2nd row-->
