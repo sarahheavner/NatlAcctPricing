@@ -230,3 +230,86 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(dollarData) {
  
 });
 
+
+//customer dollars per branch
+d3.csv("Resources/CleanData/CustDollars.csv").then(function(customerData) {
+    console.log(customerData);
+
+    var branch_name = [];
+    var Amazon = [];
+    var Americold = [];
+    var Aramsco = [];
+    var BakerDist = [];
+    var BigLots = [];
+    var Bunzl = [];
+    var CompositesOne = [];
+    var Costco = [];
+    var DHL = [];
+    var Ferguson = [];
+    var Gensco = [];
+    var Grainger = [];
+    var HarborFreight = [];
+    var HD_Pro = []; 
+    var HD_Supply = [];
+    var HomeDepot = []; 
+    var Ikea = []; 
+    var KeHE = [];
+    var KuehneNagel = [];
+    var Lineage = [];
+    var MattressFirm = [];
+    var Medline = [];
+    var OfficeDepot = [];
+    var Peloton = [];
+    var Petco = [];
+    var SamsClub = [];
+    var Sealy = [];
+    var TireCenters = [];
+    var US_Auto = [];
+    var Walmart = [];
+    var Wayfair = [];
+    var XPO = [];
+    var XPO_LM = [];
+
+    for(var i = 0; i < customerData.length; i++) {
+        branch_name.push(customerData[i].Branch);
+        Amazon.push(customerData[i].Amazon);
+        Americold.push(customerData[i].Americold);
+        Aramsco.push(customerData[i].Aramsco);
+        BakerDist.push(customerData[i].BakerDist);
+        BigLots.push(customerData[i].BigLots);
+        Bunzl.push(customerData[i].Bunzl);
+        CompositesOne.push(customerData[i].CompositesOne);
+        Costco.push(customerData[i].Costco);
+        DHL.push(customerData[i].DHL);
+        Ferguson.push(customerData[i].Ferguson);
+        Gensco.push(customerData[i].Gensco);
+        Grainger.push(customerData[i].Grainger);
+        HarborFreight.push(customerData[i].HarborFreight);
+        HD_Pro.push(customerData[i].HD_Pro);
+        HD_Supply.push(customerData[i].HD_Supply);
+        HomeDepot.push(customerData[i].HomeDepot);
+        Ikea.push(customerData[i].Ikea);
+        KeHE.push(customerData[i].KeHE);
+        KuehneNagel.push(customerData[i].KuehneNagel);
+        Lineage.push(customerData[i].Lineage);
+        MattressFirm.push(customerData[i].MattressFirm);
+        Medline.push(customerData[i].Medline);
+        OfficeDepot.push(customerData[i].OfficeDepot);
+        Peloton.push(customerData[i].Peloton);
+        Petco.push(customerData[i].Petco);
+        SamsClub.push(customerData[i].SamsClub);
+        Sealy.push(customerData[i].Sealy);
+        TireCenters.push(customerData[i].TireCenters);
+        US_Auto.push(customerData[i].US_Auto);
+        Walmart.push(customerData[i].Walmart);
+        Wayfair.push(customerData[i].Wayfair);
+        XPO.push(customerData[i].XPO);
+        XPO_LM.push(customerData[i].XPO_LM);
+    };
+
+
+
+});
+
+
+
