@@ -1,14 +1,14 @@
 /* text formatting */
 h1 {
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     font-weight: bolder;
     font-size: 50px;
 }
 
 h2 {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-weight: normal;
     font-size: 45px;
 }
@@ -39,10 +39,7 @@ p {
     padding-top: 30px;
 } */
 
-.table {
-    margin-left: 100px;
-    margin-bottom: 60px;
-}
+
 
 .line-chart {
     padding-left:25px;
