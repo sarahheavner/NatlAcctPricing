@@ -72,7 +72,7 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
                 },
                 showarrow:false,
                 text: "Inv Count",
-                x: 0.17,
+                x: 0.15,
                 y: 0.5
             },
             {
@@ -81,11 +81,11 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
                 },
                 showarrow:false,
                 text: "$$ Amt",
-                x:0.82,
+                x:0.83,
                 y:0.5
             }
         ],
-        height: 400,
+        height: 450,
         width: 550,
         showlegend: false,
         grid: {rows: 1, columns: 2}
@@ -130,7 +130,7 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
 
     var barlayout = {
         barmode: "group",
-        height: 400,
+        height: 450,
         width: 550,
     };
 
@@ -359,13 +359,14 @@ d3.csv("Resources/CleanData/CustDollars.csv").then(function(customerData) {
 
     var layout = {
         barmode: 'stack',
-        height: 500,
+        height: 550,
         width: 1200
     };
 
     Plotly.newPlot("stacked-bar", cust_data, layout);
 
 });
+
 
 
 

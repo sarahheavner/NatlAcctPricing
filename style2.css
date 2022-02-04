@@ -43,6 +43,7 @@ hr {
     text-align: center;
 }
 
+
 /* table formatting */
 thead{
     text-align: center;
@@ -56,14 +57,4 @@ tbody {
 
 
 
-.line-chart {
-    padding-left:25px;
-}
 
-/* .bar-chart {
-    padding-right: 25px;
-}
-
-.pie-area {
-    padding-right: 50px;
-} */
