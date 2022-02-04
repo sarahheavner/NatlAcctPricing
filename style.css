@@ -9,6 +9,10 @@ h3 {
     padding-bottom: 15px;
 }
 
+h4 {
+    text-align: center;
+}
+
 h5 {
     text-align: center;
 }
@@ -20,6 +24,7 @@ p {
 .dropdown {
     margin-left: 45%;
     padding-bottom: 30px;
+    align-content: center;
 }
 
 .container-fluid {

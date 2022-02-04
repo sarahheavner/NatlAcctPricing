@@ -307,7 +307,63 @@ d3.csv("Resources/CleanData/CustDollars.csv").then(function(customerData) {
         XPO_LM.push(customerData[i].XPO_LM);
     };
 
+    var abq_cust = {
+        x: ["Amazon", "Americold", "Aramsco", "BakerDist", "BigLots", "Bunzl", "CompositesOne", "Costco", 
+        "DHL", "Ferguson", "Gensco", "Grainger", "HarborFreight", "HD_Pro", "HD_Supply", "HomeDepot", "Ikea", 
+        "KeHE", "KuehneNagel", "Lineage", "MattressFirm", "Medline", "OfficeDepot", "Peloton", "Petco", "SamsClub",
+        "Sealy", "TireCenters", "US_Auto", "Walmart", "Wayfair", "XPO", "XPO_LM"],
+        y: [Amazon[0], Americold[0], Aramsco[0], BakerDist[0], BigLots[0], Bunzl[0], CompositesOne[0], Costco[0], 
+        DHL[0], Ferguson[0], Gensco[0], Grainger[0], HarborFreight[0], HD_Pro[0], HD_Supply[0], HomeDepot[0], Ikea[0], 
+        KeHE[0], KuehneNagel[0], Lineage[0], MattressFirm[0], Medline[0], OfficeDepot[0], Peloton[0], Petco[0], SamsClub[0],
+        Sealy[0], TireCenters[0], US_Auto[0], Walmart[0], Wayfair[0], XPO[0], XPO_LM[0]],
+        name: "ABQ",
+        type: "bar",
+        marker: {
+            color: "#009933"
+        },
+    };
 
+    var den_cust = {
+        x: ["Amazon", "Americold", "Aramsco", "BakerDist", "BigLots", "Bunzl", "CompositesOne", "Costco", 
+        "DHL", "Ferguson", "Gensco", "Grainger", "HarborFreight", "HD_Pro", "HD_Supply", "HomeDepot", "Ikea", 
+        "KeHE", "KuehneNagel", "Lineage", "MattressFirm", "Medline", "OfficeDepot", "Peloton", "Petco", "SamsClub",
+        "Sealy", "TireCenters", "US_Auto", "Walmart", "Wayfair", "XPO", "XPO_LM"],
+        y: [Amazon[1], Americold[1], Aramsco[1], BakerDist[1], BigLots[1], Bunzl[1], CompositesOne[1], Costco[1], 
+        DHL[1], Ferguson[1], Gensco[1], Grainger[1], HarborFreight[1], HD_Pro[1], HD_Supply[1], HomeDepot[1], Ikea[1], 
+        KeHE[1], KuehneNagel[1], Lineage[1], MattressFirm[1], Medline[1], OfficeDepot[1], Peloton[1], Petco[1], SamsClub[1],
+        Sealy[1], TireCenters[1], US_Auto[1], Walmart[1], Wayfair[1], XPO[1], XPO_LM[1]],
+        name: "DEN",
+        type: "bar",
+        marker: {
+            color: "#0066ff"
+        },
+    };
+
+    var slc_cust = {
+        x: ["Amazon", "Americold", "Aramsco", "BakerDist", "BigLots", "Bunzl", "CompositesOne", "Costco", 
+        "DHL", "Ferguson", "Gensco", "Grainger", "HarborFreight", "HD_Pro", "HD_Supply", "HomeDepot", "Ikea", 
+        "KeHE", "KuehneNagel", "Lineage", "MattressFirm", "Medline", "OfficeDepot", "Peloton", "Petco", "SamsClub",
+        "Sealy", "TireCenters", "US_Auto", "Walmart", "Wayfair", "XPO", "XPO_LM"],
+        y: [Amazon[2], Americold[2], Aramsco[2], BakerDist[2], BigLots[2], Bunzl[2], CompositesOne[2], Costco[2], 
+        DHL[2], Ferguson[2], Gensco[2], Grainger[2], HarborFreight[2], HD_Pro[2], HD_Supply[2], HomeDepot[2], Ikea[2], 
+        KeHE[2], KuehneNagel[2], Lineage[2], MattressFirm[2], Medline[2], OfficeDepot[2], Peloton[2], Petco[2], SamsClub[2],
+        Sealy[2], TireCenters[2], US_Auto[2], Walmart[2], Wayfair[2], XPO[2], XPO_LM[2]],
+        name: "SLC",
+        type: "bar",
+        marker: {
+            color: "#ff6600"
+        },
+    };
+
+    var cust_data = [abq_cust, den_cust, slc_cust];
+
+    var layout = {
+        barmode: 'stack',
+        height: 500,
+        width: 1200
+    };
+
+    Plotly.newPlot("stacked-bar", cust_data, layout);
 
 });
 
