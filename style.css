@@ -1,14 +1,14 @@
 /* text formatting */
 h1 {
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     font-weight: bolder;
     font-size: 50px;
 }
 
 h2 {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-weight: normal;
     font-size: 45px;
 }
@@ -19,7 +19,7 @@ h3 {
     font-size: 25px;
 }
 
-h5 {
+h4 {
     text-align: center;
 }
 
@@ -27,30 +27,23 @@ p {
     text-align: center;
 }
 
+hr {
+    padding-bottom: 15px;
+}
+
+/* branch dropdown menu */
 .dropdown {
     padding-top: 5px;
     padding-bottom: 25px;
     text-align: center;
 }
 
-.container-fluid {
-    padding-top: 30px;
-    /* padding-left: 50px; */
+/* table formatting */
+thead{
+    text-align: center;
 }
 
-.table {
-    margin-left: 100px;
-    margin-bottom: 60px;
+tbody {
+    text-align: right;
 }
 
-.line-chart {
-    padding-left:25px;
-}
-
-/* .bar-chart {
-    padding-right: 25px;
-}
-
-.pie-area {
-    padding-right: 50px;
-} */
