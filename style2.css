@@ -27,16 +27,17 @@ p {
     text-align: center;
 }
 
+/* branch dropdown menu */
 .dropdown {
     padding-top: 5px;
     padding-bottom: 25px;
     text-align: center;
 }
 
-.container-fluid {
+
+/* .container-fluid {
     padding-top: 30px;
-    /* padding-left: 50px; */
-}
+} */
 
 .table {
     margin-left: 100px;

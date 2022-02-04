@@ -9,20 +9,19 @@
     <!-- encode text -->
     <meta charset="UTF-8">
     <!-- set webpage title -->
-    <title>TESTING PAGE</title>
-    <script src="https://cdn.plot.ly/plotly-2.8.0.js" charset="utf-8"></script>
+    <title>Ray Natl Acct Pricing</title>
     <!-- link to BootStrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- link to CSS style -->
-    <link rel='stylesheet' href="style.css">  
+    <link rel='stylesheet' href="style2.css">  
 </head>
 
 <!-- webpage body elements -->
 <body>
   <!-- main header -->
-  <div class="container">
-    <h1 class="display-4">2021 Raymond NA P/L Analysis</h1>
-        <h3 class="display-4">Overview</h3>
+  <div class="container-fluid">
+    <h1>2021 Raymond National Account P/L Analysis</h1>
+        <h2>Overview</h2>
             <!-- add dropdown navigation -->
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,54 +34,91 @@
               <a class="dropdown-item" href="SLC.html">Salt Lake City</a>
             </div>
           </div>
+        <h3>Analysis to identify factors affecting P/L</h3>  
   </div>
   <hr>
 
-  <!-- main text paragraph -->
-  <p>The purpose of this analysis is to identify, categorize, and quantify the causes of pricing discrepancies 
-  between the invoiced amount in Quipware against the amount Raymond is paying. This analysis provides 
-  insight on opportunities to improve our invoicing accuracy with the end goal of Raymond National Accounts
-  having no financial impact on the overall P/L. 
-  </p>
+  <!-- first row of content-->
+    <div class="container-fluid">
+      <div class="row">
+      
+          <!-- summary table-->
+          <div id="table-area">
+            <h5>Branch Invoice Stats</h5>
+            <p>Monthly and annual $$ submitted per branch, total invoice count, and invoice count with and without errors </p>
+            <table class="table table-sm table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Branch</th>
+                  <th scope="col">January</th>
+                  <th scope="col">February</th>
+                  <th scope="col">March</th>
+                  <th scope="col">April</th>
+                  <th scope="col">May</th>
+                  <th scope="col">June</th>
+                  <th scope="col">July</th>
+                  <th scope="col">August</th>
+                  <th scope="col">September</th>
+                  <th scope="col">October</th>
+                  <th scope="col">November</th>
+                  <th scope="col">December</th>
+                  <th scope="col">Annual $</th>
+                  <th scope="col">Inv Count</th>
+                  <th scope="col">Inv W/ Error</th>
+                  <th scope="col">Inv W/O Error</th>
+                  <th scope="col">Error %</th>
+                </tr>
+              </thead>
+              <!-- tbody left blank, will fill in data via main.js -->
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      <!-- close out of top row-->
+      </div>
+      
 
-  <div class="container-fluid">
-    <div class="row">
+      <!-- 2nd row-->
+      <div class="row">
+
+        <!--line chart with monthly $$ submitted-->
+        <div class="line-chart">
+          <h5>Monthly $$ Submitted Per Branch</h5>
+          <p>Total monthly invoice amount submitted per branch </p>
+            <div id="line"></div>
+        </div>  
 
         <!-- pie charts with invoice count and $$ submitted per branch-->
         <div class="pie-area">
-            <div id="pie"></div>
+          <h5> Percentage Of Invoice Count and $$ Submitted Per Branch</h5>
+          <p> Left: Percentage of the total invoice count submitted per branch<br>
+              Right: Percentage of the total invoice $$ submitted per branch</p>
+          <div id="pie"></div>
         </div>
 
-        <div class="col-med-8">
-            <!-- create table for invoice stats -->
-            <div id="table-area">
-                <table class="table table-sm table-striped table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">Branch</th>
-                            <th scope="col">Invoices</th>
-                            <th scope="col">W/ Error</th>
-                            <th scope="col">W/O Error</th>
-                            <th scope="col">Error %</th>
-                            <th scope="col">Total $$</th>
-                        </tr>
-                    </thead>
-                    <!-- tbody left blank, will fill in data via main.js -->
-                    <tbody></tbody>
-                </table>
-            </div>  
-        </div>      
-            
-
+        <!-- bar chart with Invoice Count Error Vs. No Error-->
         <div class="bar-chart">
-            <div id="bar"></div>   
+          <h5>Comparison Of Invoice Errors Vs. No Errors Per Branch</h5>
+          <p>Invoice errors include both data entry errors in the portal as well as Quipware <br>
+              issues such as incorrect part pricing, labor rates, taxes and enviro fees </p>
+          <div id="bar"></div>   
         </div>
-    </div>
-    
-    <div class="row">
-        <div class="bar-chart">
-            <div id="bar-stacked"></div>
-    </div>
+
+      <!-- close out of 2nd row-->
+      </div>
+
+      <!-- 3rd row-->
+      <div class="row">
+
+        <!--stacked bar chart with customer $$-->
+          <div class="stacked-bar">
+            <div id="stacked-bar"></div>
+          </div>
+
+
+
+      <!--close out of 3rd row-->
+      </div>
 
 
 
@@ -91,12 +127,11 @@
 
 
 <script src="https://d3js.org/d3.v5.min.js"></script>
-<!-- plotly -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="Resources/main2.js"></script>
+<script src="Resources/main.js"></script>
 
 
 </html>
