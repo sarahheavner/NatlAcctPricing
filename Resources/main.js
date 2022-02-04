@@ -88,7 +88,8 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
         height: 450,
         width: 550,
         showlegend: false,
-        grid: {rows: 1, columns: 2}
+        grid: {rows: 1, columns: 2},
+        title: "Percentage Of Invoice Count and $$ Submitted Per Branch"
     };
 
     Plotly.newPlot("pie", pieData, layout)
@@ -132,6 +133,7 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(invData) {
         barmode: "group",
         height: 450,
         width: 550,
+        title: "Count of Invoice Errors Vs. No Errors"
     };
 
     Plotly.newPlot("bar", barData, barlayout);
@@ -223,7 +225,8 @@ d3.csv("Resources/CleanData/InvStats.csv").then(function(dollarData) {
     var lineData = [traceabq, traceden, traceslc]
     layout = {
         height: 450,
-        width: 550
+        width: 550,
+        title: "Monthly $$ Submitted Per Branch"
     };
 
     Plotly.newPlot("line", lineData, layout);
@@ -308,10 +311,10 @@ d3.csv("Resources/CleanData/CustDollars.csv").then(function(customerData) {
     };
 
     var abq_cust = {
-        x: ["Amazon", "Americold", "Aramsco", "BakerDist", "BigLots", "Bunzl", "CompositesOne", "Costco", 
-        "DHL", "Ferguson", "Gensco", "Grainger", "HarborFreight", "HD_Pro", "HD_Supply", "HomeDepot", "Ikea", 
-        "KeHE", "KuehneNagel", "Lineage", "MattressFirm", "Medline", "OfficeDepot", "Peloton", "Petco", "SamsClub",
-        "Sealy", "TireCenters", "US_Auto", "Walmart", "Wayfair", "XPO", "XPO_LM"],
+        x: ["Amazon", "Americold", "Aramsco", "Baker Dist", "Big Lots", "Bunzl", "Composites One", "Costco", 
+        "DHL", "Ferguson", "Gensco", "Grainger", "Harbor Freight", "HD Pro", "HD Supply", "Home Depot", "Ikea", 
+        "KeHE", "Kuehne & Nagel", "Lineage", "Mattress Firm", "Medline", "Office Depot", "Peloton", "Petco", "Sams Club",
+        "Sealy", "Tire Centers", "US Auto", "Walmart", "Wayfair", "XPO", "XPO LM"],
         y: [Amazon[0], Americold[0], Aramsco[0], BakerDist[0], BigLots[0], Bunzl[0], CompositesOne[0], Costco[0], 
         DHL[0], Ferguson[0], Gensco[0], Grainger[0], HarborFreight[0], HD_Pro[0], HD_Supply[0], HomeDepot[0], Ikea[0], 
         KeHE[0], KuehneNagel[0], Lineage[0], MattressFirm[0], Medline[0], OfficeDepot[0], Peloton[0], Petco[0], SamsClub[0],
@@ -324,10 +327,10 @@ d3.csv("Resources/CleanData/CustDollars.csv").then(function(customerData) {
     };
 
     var den_cust = {
-        x: ["Amazon", "Americold", "Aramsco", "BakerDist", "BigLots", "Bunzl", "CompositesOne", "Costco", 
-        "DHL", "Ferguson", "Gensco", "Grainger", "HarborFreight", "HD_Pro", "HD_Supply", "HomeDepot", "Ikea", 
-        "KeHE", "KuehneNagel", "Lineage", "MattressFirm", "Medline", "OfficeDepot", "Peloton", "Petco", "SamsClub",
-        "Sealy", "TireCenters", "US_Auto", "Walmart", "Wayfair", "XPO", "XPO_LM"],
+        x: ["Amazon", "Americold", "Aramsco", "Baker Dist", "Big Lots", "Bunzl", "Composites One", "Costco", 
+        "DHL", "Ferguson", "Gensco", "Grainger", "Harbor Freight", "HD Pro", "HD Supply", "Home Depot", "Ikea", 
+        "KeHE", "Kuehne & Nagel", "Lineage", "Mattress Firm", "Medline", "Office Depot", "Peloton", "Petco", "Sams Club",
+        "Sealy", "Tire Centers", "US Auto", "Walmart", "Wayfair", "XPO", "XPO LM"],
         y: [Amazon[1], Americold[1], Aramsco[1], BakerDist[1], BigLots[1], Bunzl[1], CompositesOne[1], Costco[1], 
         DHL[1], Ferguson[1], Gensco[1], Grainger[1], HarborFreight[1], HD_Pro[1], HD_Supply[1], HomeDepot[1], Ikea[1], 
         KeHE[1], KuehneNagel[1], Lineage[1], MattressFirm[1], Medline[1], OfficeDepot[1], Peloton[1], Petco[1], SamsClub[1],
@@ -340,10 +343,10 @@ d3.csv("Resources/CleanData/CustDollars.csv").then(function(customerData) {
     };
 
     var slc_cust = {
-        x: ["Amazon", "Americold", "Aramsco", "BakerDist", "BigLots", "Bunzl", "CompositesOne", "Costco", 
-        "DHL", "Ferguson", "Gensco", "Grainger", "HarborFreight", "HD_Pro", "HD_Supply", "HomeDepot", "Ikea", 
-        "KeHE", "KuehneNagel", "Lineage", "MattressFirm", "Medline", "OfficeDepot", "Peloton", "Petco", "SamsClub",
-        "Sealy", "TireCenters", "US_Auto", "Walmart", "Wayfair", "XPO", "XPO_LM"],
+        x: ["Amazon", "Americold", "Aramsco", "Baker Dist", "Big Lots", "Bunzl", "Composites One", "Costco", 
+        "DHL", "Ferguson", "Gensco", "Grainger", "Harbor Freight", "HD Pro", "HD Supply", "Home Depot", "Ikea", 
+        "KeHE", "Kuehne & Nagel", "Lineage", "Mattress Firm", "Medline", "Office Depot", "Peloton", "Petco", "Sams Club",
+        "Sealy", "Tire Centers", "US Auto", "Walmart", "Wayfair", "XPO", "XPO LM"],
         y: [Amazon[2], Americold[2], Aramsco[2], BakerDist[2], BigLots[2], Bunzl[2], CompositesOne[2], Costco[2], 
         DHL[2], Ferguson[2], Gensco[2], Grainger[2], HarborFreight[2], HD_Pro[2], HD_Supply[2], HomeDepot[2], Ikea[2], 
         KeHE[2], KuehneNagel[2], Lineage[2], MattressFirm[2], Medline[2], OfficeDepot[2], Peloton[2], Petco[2], SamsClub[2],
@@ -359,8 +362,9 @@ d3.csv("Resources/CleanData/CustDollars.csv").then(function(customerData) {
 
     var layout = {
         barmode: 'stack',
-        height: 550,
-        width: 1200
+        height: 600,
+        width: 1400,
+        title: "$$ Submitted Per Customer"
     };
 
     Plotly.newPlot("stacked-bar", cust_data, layout);
