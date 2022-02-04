@@ -34,6 +34,16 @@ p {
     text-align: center;
 }
 
+/* table formatting */
+thead{
+    text-align: center;
+}
+
+tbody {
+    text-align: right;
+}
+
+
 
 /* .container-fluid {
     padding-top: 30px;
